@@ -22,9 +22,9 @@ $(window).scroll(function () {
 $(function () {
   var voice = new Swiper('.uservoice .swiper-container', {
     loop: true,
-    slidesPerView: 3,
-    spaceBetween: 10,
-    centeredSlides: true,
+    slidesPerView: 3.5,
+    spaceBetween: 16,
+    // centeredSlides: true,
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
     breakpoints: {
