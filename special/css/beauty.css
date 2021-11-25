@@ -129,8 +129,10 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    padding-bottom: 150px;
+  body.bg-green {
+    background-image: none;
+    background-color: white;
+    /* padding-bottom: 150px; */
   }
   img {
     max-width: 100%;
@@ -543,6 +545,7 @@ background-size: 1.2rem;
   .mv {
     max-height: 80vh;
     padding-top: 32px;
+    background-image:url(../../special/img/beauty/bg-top.png);
   }
   .mv-inner {
     height: 133vw;
@@ -1057,7 +1060,7 @@ background-size: 1.2rem;
   .cta {
     padding: 0;
   }
-  .cta .content, .uservoice .heading {
+  .cta .content {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -1066,7 +1069,9 @@ background-size: 1.2rem;
     min-height: 150px;
     padding: 0;
   }
-  .cta-img, .cta .btn-wrap, .voice-img, .voice-ttl {
+  .cta-img, 
+  .cta .btn-wrap, 
+  .voice-img {
     position: relative;
     left: 0;
     right: 0;
@@ -1074,7 +1079,7 @@ background-size: 1.2rem;
     background-size: contain;
     background-position: bottom;
   }
-  .cta-img,  .voice-img {
+  .cta-img {
     height: 50vw;
   }
   .cta .btn-wrap {
@@ -1127,7 +1132,7 @@ background-size: 1.2rem;
     width: 100%;
   }
   .joboffer .heading img {
-    /* width: 266px; */
+    width: 73%;
   }
   .joboffer-slider {
     /* margin-right: -20px; */
@@ -1364,7 +1369,7 @@ background-size: 1.2rem;
   justify-content: space-between;
   max-width: 960px;
   margin-top: 182px;
-} 
+}
 .merit .card-unit .card03 {
   margin-top: 0;
 }
@@ -1374,13 +1379,13 @@ background-size: 1.2rem;
 
 @media only screen and (max-width: 767px) {
   .merit {
-    padding: 0 0 40px;
+    padding: 0 0 20%;
   }
   .merit .content {
-width: 100%;
+    width: 100%;
   }
   .merit .heading img {
-    width: 286px;
+    width: 76%;
   }
   .merit .card-unit {
     -webkit-box-orient: vertical;
@@ -1637,6 +1642,7 @@ width: 100%;
   width: calc(100% - 10px);
   max-width: 960px;
   height: 200px;
+  min-height: 199px;
 }
 img.voice-ttl {
   position: absolute;
@@ -1694,7 +1700,14 @@ img.voice-ttl {
 }
 @media only screen and (max-width: 1060px) {
   .uservoice .heading {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    min-height: 130px;
     margin-bottom: 33px;
+    padding: 0;
+    width: 100%;
   }
   .uservoice .swiper-button-prev, .uservoice .swiper-button-next {
     display: none;
@@ -1778,6 +1791,19 @@ img.voice-ttl {
 		font-size:1.625rem;
 		top:-0.1rem;
 	}
+  img.voice-ttl {
+    position: relative;
+    bottom: 0;
+    margin-top: -80px;
+    left: 0;
+    width: 100%;
+    height: 120px;
+  }
+  .voice-img {
+    height: 250px;
+    background-position-x : center;
+    position: relative;
+  }
 }
 .icon-rated-yellow {
 	background-image:url(../../special/img/beauty/rated-yellow.svg)
@@ -1795,15 +1821,15 @@ img.voice-ttl {
 .flow {
   padding: 60px 0 60px;
 }
-.flow .heading img {
-  display: block;
-}
 .flow .heading::before {
   display: none;
 }
 @media only screen and (max-width: 767px) {
   .flow {
     padding: 40px 0;
+  }
+  .flow .heading {
+    margin-bottom: 0;
   }
   .flow .heading img {
     width: 264px;
@@ -1851,7 +1877,7 @@ img.voice-ttl {
   width: 100%;
 }
 .steplist-item-inner {
-  padding: 17px 14px;
+  padding: 0;
   text-align: center;
 }
 .steplist-item-label {
@@ -1943,7 +1969,7 @@ img.voice-ttl {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
   }
   .steplist-item-img {
     -webkit-box-flex: 1;
@@ -1955,23 +1981,53 @@ img.voice-ttl {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    margin-top: 0;
+    margin-top: -5px;
+    padding: 5%;
+    background: white;
+    border-radius: 8px;
+    width: 250px;
   }
   .steplist-item-ttl {
-    font-size: 14px;
-    padding-left: 40px;
-    text-align: left;
+    font-size: 18px;
   }
   .steplist-item-03 .steplist-item-ttl {
-    padding-left: 40px;
+    padding-left: 0;
   }
   .steplist-item-txt {
     font-size: 12px;
     line-height: 1.5;
-    text-align: left;
+    /* text-align: left; */
+    height: 90px;
   }
   .steplist-item-txt .small {
     line-height: 1.5;
+  }
+  .o-scroll {
+    overflow-x:auto;
+    overflow-y:hidden;
+  }
+  .o-scroll::-webkit-scrollbar {
+    display:none;
+  }
+  .o-scroll__container {
+    position: relative;
+    display: inline-grid;
+    /* grid-template-rows: repeat(1,auto); */
+    grid-auto-flow: column;
+    z-index: 1;
+    box-sizing :border-box;
+    padding-right :20px;
+    padding-bottom: 20px;
+    align-items: end;
+  }
+  .o-scroll__container li {
+    width: 270px;
+  }
+  .steplist-item-label {
+    border-bottom :none;
+  }
+  .steplist-item-inner {
+    padding-top: 0;
   }
 }
 
@@ -2164,7 +2220,10 @@ img.voice-ttl {
 
 @media only screen and (max-width: 767px) {
   .footer {
-    padding: 35px 0 31px;
+    position: relative;
+    z-index: 2;
+    padding: 35px 0 0;
+    background: white;
     border-top: 1px dotted #999;
   }
   .footer-inner {
