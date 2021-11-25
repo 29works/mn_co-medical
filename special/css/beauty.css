@@ -1494,7 +1494,7 @@ background-size: 1.2rem;
     padding-left: 355px;
   }
   .l-section__content > .title {
-    /* font-size: 26px; */
+    font-size: 26px;
     line-height: 1.46;
     margin-bottom: 20px;
   }
