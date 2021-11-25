@@ -32,7 +32,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 body {
   line-height: 1;
   color: #171717;
-  overflow-x: hidden
+  overflow-x: hidden；
 }
 article, aside, dialog, figure, footer, header, hgroup, nav, section {
   display: block;
@@ -544,7 +544,7 @@ background-size: 1.2rem;
 @media only screen and (max-width: 767px) {
   .mv {
     max-height: 80vh;
-    padding-top: 32px;
+    padding-top: 20px;
     background-image:url(../../special/img/beauty/bg-top.png);
   }
   .mv-inner {
@@ -792,7 +792,7 @@ background-size: 1.2rem;
   }
   .card-unit.card-unit-col03 .card .card-head {
     position: relative;
-    padding: 2% 5%;
+    padding: 4% 5%;
     border-radius: 8px;
     background: white;
   }
@@ -1146,7 +1146,7 @@ background-size: 1.2rem;
     margin: 0 0 1px 0;
   }
   .joboffer-slider .swiper-container .swiper-wrapper .swiper-slide {
-    /* width: 80%; */
+    width: 80%;
     /* margin-right: 4%; */
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
   }
@@ -1471,7 +1471,7 @@ background-size: 1.2rem;
     padding-left: 355px;
   }
   .l-section__content > .title {
-    font-size: 26px;
+    /* font-size: 26px; */
     line-height: 1.46;
     margin-bottom: 20px;
   }
@@ -1512,7 +1512,7 @@ background-size: 1.2rem;
     padding-top: 55px;
   }
   .l-section__content > .title {
-    font-size: 18px;
+    font-size: 26px;
     line-height: 1.5;
     margin-bottom: 10px;
   }
@@ -1996,15 +1996,14 @@ img.voice-ttl {
   .steplist-item-txt {
     font-size: 12px;
     line-height: 1.5;
-    /* text-align: left; */
     height: 90px;
   }
   .steplist-item-txt .small {
     line-height: 1.5;
   }
   .o-scroll {
-    overflow-x:auto;
-    overflow-y:hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
   .o-scroll::-webkit-scrollbar {
     display:none;
@@ -2012,7 +2011,6 @@ img.voice-ttl {
   .o-scroll__container {
     position: relative;
     display: inline-grid;
-    /* grid-template-rows: repeat(1,auto); */
     grid-auto-flow: column;
     z-index: 1;
     box-sizing :border-box;
