@@ -511,6 +511,7 @@ background-size: 1.2rem;
   min-width: 400px;
 }
 .mv-ttl {
+  position: relative;
   width: 100%;
   max-width: 400px;
   margin: -10px auto 0;
@@ -518,6 +519,12 @@ background-size: 1.2rem;
 }
 .mv-ttl h2 img {
   width: 100%;
+}
+.mv-leaf {
+  position: absolute;
+  top: 98px;
+  left: -106px;
+  width: 600px;
 }
 .mv-ttl h2 .feature-name{
   color: #97C35B;
@@ -545,8 +552,7 @@ background-size: 1.2rem;
   .mv {
     max-height: 80vh;
     padding-top: 20px;
-    background-image:url(../../special/img/beauty/bg-top.png);
-  }
+    background-image: radial-gradient(#ffffff00 10%, #7cbb4d8f 90%), url(../../special/img/beauty/bg-top.png)}
   .mv-inner {
     height: 133vw;
     min-width: 100%;
@@ -1447,6 +1453,10 @@ background-size: 1.2rem;
   font-weight: 500;
   color: rgba(28, 30, 32, 0.1);
 }
+.cloud {
+  position: absolute;
+  left: -10px;
+}
 @media only screen and (min-width: 751px) {
   .l-section {
     width: 1080px;
@@ -1833,6 +1843,9 @@ img.voice-ttl {
   }
   .flow .heading img {
     width: 264px;
+  }
+  .flow .content {
+    width: 100%;
   }
 }
 .steplist {

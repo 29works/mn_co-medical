@@ -117,6 +117,13 @@ $(function () {
     duration: '500',
     easing: 'linear',
   });
+  // merit
+  ScrollReveal().reveal('.cloud', {
+    origin: 'left',
+    distance: '50px',
+    duration: '500',
+    reset: 'true',
+  });
   // Flow
   ScrollReveal().reveal('.steplist', {
     distance: '50px',
