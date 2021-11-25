@@ -24,12 +24,13 @@ $(function () {
     loop: true,
     slidesPerView: 3.5,
     spaceBetween: 16,
-    // centeredSlides: true,
+    centeredSlides: true,
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
     breakpoints: {
       767: {
         slidesPerView: 1.5,
+        spaceBetween: 20,
       },
     },
   });
@@ -55,9 +56,9 @@ window.addEventListener(
           nextButton: '.swiper-button-next',
           prevButton: '.swiper-button-prev',
           loop: false,
-          slidesPerView: 1.2,
+          slidesPerView: 1.5,
           spaceBetween: 20,
-          centeredSlides: false,
+          centeredSlides: true,
         });
       } else if (scaleWindowW() >= 767 && swiperjob != undefined) {
         swiperjob.destroy();
