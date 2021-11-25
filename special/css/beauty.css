@@ -452,6 +452,11 @@ background-size: 1.2rem;
     max-width: 450px;
   }
 }
+@media only screen and (max-width: 374px) {
+  .floating .btn-entry::after {
+    display: none;
+  }
+}
 
 /* ---------------------------
  header
@@ -1252,7 +1257,6 @@ background-size: 1.2rem;
   .card02-salary {
     font-size: 18px;
     margin-top: 14px;
-    /* padding-left: 31px; */
   }
   .card02-salary::before {
     width: 24px;
@@ -1261,12 +1265,16 @@ background-size: 1.2rem;
   }
   .card02-txt {
     margin-top: 9px;
-    /* padding-left: 30px; */
   }
   .card02-txt::before {
     width: 24px;
     height: 26px;
     background-size: 24px 26px;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .card02-type, .card02-job {
+    font-size: 12px;
   }
 }
 
