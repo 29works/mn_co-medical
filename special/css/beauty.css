@@ -423,7 +423,7 @@ section {
 
 @media only screen and (max-width: 767px) {
   #page-top {
-    bottom: 24px;
+    bottom: 98px;
   }
 }
 
@@ -433,7 +433,7 @@ section {
   z-index: 1000;
   bottom: 62px;
   left: 0;
-  width: 85%;
+  width: 100%;
   padding: 0 15px;
 }
 .floating .btn-wrap {
@@ -562,7 +562,7 @@ background-size: 1.2rem;
 
 @media only screen and (max-width: 767px) {
   .mv {
-    max-height: 80vh;
+    max-height: 83vh;
     padding-top: 20px;
     background-image: radial-gradient(#ffffff00 10%, #7cbb4d8f 90%), url(../../special/img/beauty/bg-top.png)}
   .mv-inner {
@@ -598,7 +598,7 @@ background-size: 1.2rem;
 --------------------------- */
 .about {
   position: relative;
-  padding-top: 105px;
+  padding-top: 90px;
 }
 .about::after {
   position: absolute;
@@ -618,7 +618,7 @@ background-size: 1.2rem;
   position: relative;
 }
 .about .heading{
-  margin-bottom: 20px;
+  margin: 50px 0;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -649,6 +649,36 @@ background-size: 1.2rem;
   z-index: 1;
   text-align: center;
 }
+.about .btn-wrap .btn-entry {
+  padding: 18px 10px;
+  z-index: 11;
+  max-width: 450px;
+  font-size: 18px;
+  color: white;
+  background: #00000021;
+  border: 2px solid white;
+}
+.about .btn-wrap .btn-entry::after {
+  display: none;
+}
+@media screen and (min-width: 750px) {
+  .btn-twinkle>.btn-entry{
+    transition:all .5s ease-in-out;
+  }
+  .btn-twinkle:hover .btn-entry{
+    background: black;
+    text-shadow:
+      0 0 10px rgba(255,255,255, 1),
+      0 0 50px rgba(255, 255, 255, .8),
+      0 0 75px rgba(255, 255, 255, .6),
+      0 0 76px rgba(255, 255, 255, .4),
+      0 0 77px rgba(255, 255, 255, .5),
+      0 0 78px rgba(255, 255, 255, .4),
+      0 0 79px rgba(255, 255, 255, .3),
+      0 0 80px rgba(255, 255, 255, .2),
+      0 0 85px rgba(255, 255, 255, .1);
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .about {
@@ -674,6 +704,29 @@ background-size: 1.2rem;
     margin: 3% 5%;
     text-align: left;
   }
+  .btn-twinkle {
+    position: absolute;
+    z-index: 999;
+    top: -142px;
+    left: 0;
+    right: 0;
+  }
+  .btn-twinkle>.btn-entry {
+    background: black;
+    text-shadow:
+      0 0 10px rgba(255,255,255, 1),
+      0 0 50px rgba(255, 255, 255, .8),
+      0 0 75px rgba(255, 255, 255, .6),
+      0 0 76px rgba(255, 255, 255, .4),
+      0 0 77px rgba(255, 255, 255, .5),
+      0 0 78px rgba(255, 255, 255, .4),
+      0 0 79px rgba(255, 255, 255, .3),
+      0 0 80px rgba(255, 255, 255, .2),
+      0 0 85px rgba(255, 255, 255, .1);
+  }
+  .about .btn-wrap .btn-entry {
+    max-width: 320px;
+  }
 }
 @media only screen and (max-width: 374px) {
   .about .hashtag span {
@@ -681,7 +734,7 @@ background-size: 1.2rem;
   }
 }
 /* ---------------------------
- section / merit
+ section / point
 --------------------------- */
 .point {
   position: relative;
@@ -1049,7 +1102,7 @@ background-size: 1.2rem;
   line-height: 1.8;
 }
 .cta .lead img {
-  height: 101px;
+  height: 66px;
   position: relative;
   top: 2px;
 }
@@ -1086,8 +1139,8 @@ background-size: 1.2rem;
     min-height: 150px;
     padding: 0;
   }
-  .cta-img, 
-  .cta .btn-wrap, 
+  .cta-img,
+  .cta .btn-wrap,
   .voice-img {
     position: relative;
     left: 0;
@@ -1101,7 +1154,7 @@ background-size: 1.2rem;
   }
   .cta .btn-wrap {
     padding: 0 5%;
-    bottom: 57px;
+    bottom: 43px;
     height: 200px;
     width: 100%;
   }
@@ -1113,7 +1166,8 @@ background-size: 1.2rem;
     text-align: left;
   }
   .cta .lead img{
-    height: 100px;
+    min-height: 50px;
+    width:auto
   }
 }
 
@@ -1188,6 +1242,7 @@ background-size: 1.2rem;
 }
 .card02-body {
   padding: 6%;
+  min-height: 120px;
 }
 .card02-type, .card02-job {
   position: relative;
@@ -1251,6 +1306,10 @@ background-size: 1.2rem;
   .card02-img {
     margin-top: 0;
   }
+  .card02-body {
+    padding: 6%;
+    min-height: 160px;
+  }
   .card02-salary {
     font-size: 18px;
     margin-top: 14px;
@@ -1280,6 +1339,9 @@ background-size: 1.2rem;
 --------------------------- */
 .merit {
   padding: 0 0 10px;
+}
+.merit .heading img {
+  display: block;
 }
 .merit-txt {
   font-size: 14px;
@@ -1462,7 +1524,7 @@ background-size: 1.2rem;
   z-index: 1;
 }
 .l-section-title .en {
-  font-family: "futura", serif;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 500;
   color: rgba(28, 30, 32, 0.1);
 }
