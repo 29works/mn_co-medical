@@ -565,7 +565,8 @@ background-size: 1.2rem;
 
 @media only screen and (max-width: 767px) {
   .mv {
-    max-height: 80vh;
+    /* max-height: 80vh; */
+    max-height: 167vw;
     padding-top: 20px;
     background-image: radial-gradient(#ffffff00 10%, #7cbb4d8f 90%), url(../../special/img/beauty/bg-top.png)
   }
@@ -596,11 +597,6 @@ background-size: 1.2rem;
   .mv-ttl h2 .btn-wrap a span {
     font-size: 12px;
     padding: 2px 12px 4px;
-  }
-}
-@media only screen and (max-width: 374px) {
-  .mv {
-    max-height: 90vh;
   }
 }
 
@@ -723,7 +719,7 @@ background-size: 1.2rem;
     right: 0;
   }
   .btn-twinkle>.btn-entry {
-    background: black;
+    background: #00000038;
     text-shadow:
       0 0 10px rgba(255,255,255, 1),
       0 0 50px rgba(255, 255, 255, .8),
