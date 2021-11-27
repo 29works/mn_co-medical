@@ -689,7 +689,7 @@ background-size: 1.2rem;
 
 @media only screen and (max-width: 767px) {
   .about {
-    padding-top: 12%;
+    padding-top: 30px;
   }
   .about::after {
     top: -16px;
@@ -836,9 +836,6 @@ background-size: 1.2rem;
     height: 180px;
     background-size: cover;
     background-position: right;
-  }
-  .point .heading img {
-    /* width: 100%; */
   }
   .point .lead {
     margin-bottom: 25px;
@@ -1362,96 +1359,6 @@ background-size: 1.2rem;
   line-height: 1.67;
   letter-spacing: 0.1em;
 }
-@media only screen and (min-width: 751px) {
-  #merit01 .l-section__illust,
-  #merit03 .l-section__illust {
-    margin-left: -65px;
-  }
-  #merit02 .l-section__inner {
-    width: 820px;
-    margin-left: auto;
-  }
-  #merit02 .l-section__illust {
-    margin-right: -60px;
-    margin-left: auto;
-    overflow: hidden;
-  }
-  #merit02 .l-section__illust-bg {
-    position: relative;
-    right: -15%;
-    top: 50%;
-  }
-  #merit02 .l-section__illust-person {
-    width: 25.1875vw;
-    height: 19.8125vw;
-    margin-left: -12.1875vw;
-    margin-top: -8.625vw;
-  }
-  #merit02 .l-section__illust-cloud1 {
-    width: 23.125vw;
-    height: 3.9375vw;
-    margin-left: 7.1875vw;
-    margin-top: 9.8125vw;
-  }
-  #merit02 .l-section__illust-cloud2 {
-    width: 21.875vw;
-    height: 3.8125vw;
-    margin-left: -29vw;
-    margin-top: 3.8125vw;
-  }
-  #merit02 .l-section__illust-cloud3 {
-    width: 40.0625vw;
-    height: 4.25vw;
-    margin-left: -8.125vw;
-    margin-top: -15.375vw;
-  }
-  #merit02 .l-section__content {
-    padding-left: 355px;
-  }
-  #merit02 .l-section-title {
-    left: 0;
-  }
-}
-@media only screen and (max-width: 750px) {
-  #merit02.l-section__illust-interior {
-    width: 82.26667vw;
-    height: 32vw;
-    margin-left: -46.13333vw;
-    margin-top: -4.8vw;
-  }
-  #merit02.l-section__illust-person {
-    width: 53.73333vw;
-    height: 42.26667vw;
-    margin-left: -26vw;
-    margin-top: -18.4vw;
-  }
-  #merit02.l-section__illust-cloud1 {
-    width: 49.33333vw;
-    height: 8.4vw;
-    margin-left: 15.33333vw;
-    margin-top: 20.93333vw;
-  }
-  #merit02.l-section__illust-cloud2 {
-    display: none;
-  }
-  #merit02.l-section__illust-cloud3 {
-    width: 85.46667vw;
-    height: 9.06667vw;
-    margin-left: -17.33333vw;
-    margin-top: -32.8vw;
-  }
-}
-@media only screen and (min-width: 751px) and (max-width: 1080px) and (min-width: 751px) {
-  .merit .card-unit {
-    width: initial;
-    margin-left: 45px;
-    margin-right: 45px;
-  }
-  .merit .card-unit.card-unit-col03 .card03 {
-    position: relative;
-    padding-left: 355px;
-  }
-}
 .merit .card-unit {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1468,8 +1375,98 @@ background-size: 1.2rem;
 .merit .card-unit.card-unit-col03 .card03 {
   width: calc((100% - 60px) / 3);
 }
+.m-section__inner {
+  position: relative;
+}
+.m-section__illust {
+  position: relative;
+}
+.m-section__illust > *:not(.m-section__illust-bg) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.m-section__illust-bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.m-section__content {
+  position: relative;
+}
+.m-section__content .m-section-title .jp {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.m-section__content > .title {
+  font-weight: 700;
+}
+.m-section__content > * {
+  position: relative;
+  z-index: 1;
+}
+.m-section-title .en {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 500;
+  color: rgba(28, 30, 32, 0.1);
+}
+.cloud {
+  position: absolute;
+  left: -10px;
+}
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 751px) {
+  #merit01 .m-section__illust,
+  #merit03 .m-section__illust {
+    margin-left: -65px;
+  }
+  #merit02 .m-section__inner {
+    width: 820px;
+    margin-left: auto;
+  }
+  #merit02 .m-section__illust {
+    margin-right: -60px;
+    margin-left: auto;
+    overflow: hidden;
+  }
+  #merit02 .m-section__illust-bg {
+    position: relative;
+    right: -15%;
+    top: 50%;
+  }
+  #merit02 .m-section__illust-person {
+    width: 25.1875vw;
+    height: 19.8125vw;
+    margin-left: -12.1875vw;
+    margin-top: -8.625vw;
+  }
+  #merit02 .m-section__illust-cloud1 {
+    width: 23.125vw;
+    height: 3.9375vw;
+    margin-left: 7.1875vw;
+    margin-top: 9.8125vw;
+  }
+  #merit02 .m-section__illust-cloud2 {
+    width: 21.875vw;
+    height: 3.8125vw;
+    margin-left: -29vw;
+    margin-top: 3.8125vw;
+  }
+  #merit02 .m-section__illust-cloud3 {
+    width: 40.0625vw;
+    height: 4.25vw;
+    margin-left: -8.125vw;
+    margin-top: -15.375vw;
+  }
+  #merit02 .m-section__content {
+    padding-left: 355px;
+  }
+  #merit02 .m-section-title {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 750px) {
   .merit {
     padding: 0 0 20%;
   }
@@ -1495,97 +1492,85 @@ background-size: 1.2rem;
   .merit .card-unit.card-unit-col03 .card03 {
     width: 100%;
   }
-}
-.card03 {
-  font-weight: 500;
-  position: relative;
-  width: 100%;
-  padding: 39px 21px 50px;
-  border-radius: 10px;
-}
-.card03.card03-01 .card03-no {
-  left: 10px;
-}
-.l-section__inner {
-  position: relative;
-}
-.l-section__illust {
-  position: relative;
-}
-.l-section__illust > *:not(.l-section__illust-bg) {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-}
-.l-section__illust-bg {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.l-section__content {
-  position: relative;
-}
-.l-section__content .l-section-title .jp {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.l-section__content > .title {
-  font-weight: 700;
-}
-.l-section__content > * {
-  position: relative;
-  z-index: 1;
-}
-.l-section-title .en {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-weight: 500;
-  color: rgba(28, 30, 32, 0.1);
-}
-.cloud {
-  position: absolute;
-  left: -10px;
+  #merit02.m-section__illust-interior {
+    width: 82.26667vw;
+    height: 32vw;
+    margin-left: -46.13333vw;
+    margin-top: -4.8vw;
+  }
+  #merit02.m-section__illust-person {
+    width: 53.73333vw;
+    height: 42.26667vw;
+    margin-left: -26vw;
+    margin-top: -18.4vw;
+  }
+  #merit02.m-section__illust-cloud1 {
+    width: 49.33333vw;
+    height: 8.4vw;
+    margin-left: 15.33333vw;
+    margin-top: 20.93333vw;
+  }
+  #merit02.m-section__illust-cloud2 {
+    display: none;
+  }
+  #merit02.m-section__illust-cloud3 {
+    width: 85.46667vw;
+    height: 9.06667vw;
+    margin-left: -17.33333vw;
+    margin-top: -32.8vw;
+  }
 }
 @media only screen and (min-width: 751px) and (max-width: 1080px) and (min-width: 751px) {
-  .l-section {
+  .merit .card-unit {
+    width: initial;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .merit .card-unit.card-unit-col03 .card03 {
+    position: relative;
+    padding-left: 355px;
+  }
+}
+@media only screen and (min-width: 751px) and (max-width: 1080px) and (min-width: 751px) {
+  .m-section {
     width: initial;
     margin-left: 45px;
     margin-right: 45px;
   }
 }
 @media only screen and (min-width: 751px) {
-  .l-section {
+  .m-section {
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
   }
-  .l-section:last-of-type {
+  .m-section:last-of-type {
     margin-bottom: 300px;
   }
-  .l-section__content {
+  .m-section__content {
     padding-top: 40px;
     padding-left: 355px;
   }
-  .l-section__content > .title {
+  .m-section__content > .title {
     font-size: 26px;
     line-height: 1.46;
     margin-bottom: 20px;
   }
-  .l-section__content .merit-txt {
+  .m-section__content .merit-txt {
     width: 415px;
   }
-  .l-section-title {
+  .m-section-title {
     position: absolute;
     left: 0;
   }
-  .l-section-title .jp {
+  .m-section-title .jp {
     margin-bottom: -35px;
     font-size: 20px;
     position: relative;
     z-index: 1;
   }
-  .l-section-title .en {
+  .m-section-title .en {
     position: relative;
     margin-bottom: -33px;
     left: 12px;
@@ -1599,34 +1584,34 @@ background-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 750px) {
-  .l-section {
+  .m-section {
     margin-bottom: 70px;
   }
-  .l-section__illust {
+  .m-section__illust {
     width: 100%;
     height: 53.33333vw;
   }
-  .l-section__content {
+  .m-section__content {
     width: -webkit-calc(100% - 40px);
     width: calc(100% - 40px);
     margin-left: auto;
     margin-right: auto;
     padding-top: 55px;
   }
-  .l-section__content > .title {
+  .m-section__content > .title {
     font-size: 26px;
     line-height: 1.5;
     margin-bottom: 10px;
   }
-  .l-section-title {
+  .m-section-title {
     text-align: left;
     margin-bottom: -60px;
   }
-  .l-section-title .jp {
+  .m-section-title .jp {
     font-size: 13px;
     margin-top: -25px;
   }
-  .l-section-title .en {
+  .m-section-title .en {
     font-size: 30px;
     line-height: 1.16;
     position: relative;
@@ -1636,88 +1621,8 @@ background-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 374px) {
-  .l-section__content > .title {
+  .m-section__content > .title {
     font-size: 22px;
-  }
-}
-.card03.card03-02 .card03-no {
-  left: 32px;
-}
-.card03.card03-03 .card03-no {
-  left: 10px;
-}
-.card03.card03-02 .card03-img {
-  right: 34px;
-  width: 31.9402985%;
-  max-width: 107px;
-}
-.card03.card03-03 .card03-img {
-  right: 16px;
-  width: 56.7164179%;
-  max-width: 190px;
-  margin-bottom: -11px;
-}
-.card03-no {
-  font-size: 100px;
-  font-weight: bold;
-  line-height: 1;
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  margin-bottom: -6px;
-  letter-spacing: -.01em;
-  color: var(--blue03);
-}
-.card03-img {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-@media only screen and (min-width: 751px) {
-  .card03-img img {
-    width: 618px;
-    height: 289px;
-    margin-left: -21.625vw;
-    margin-top: -2.25vw;
-  }
-}
-.card03-ttl {
-  font-size: 20px;
-  line-height: 1.426;
-  letter-spacing: .12em;
-  color: var(--orange);
-}
-.card03-txt {
-  font-size: 15px;
-  line-height: 1.5;
-  margin-top: 21px;
-  color: #fff;
-}
-.card03-txt span {
-  color: var(--orange);
-}
-
-@media only screen and (max-width: 767px) {
-  .card03.card03-01 .card03-no {
-    left: 2.98507463%;
-  }
-  .card03.card03-02 .card03-no {
-    right: 2.98507463%;
-    left: auto;
-  }
-  .card03.card03-03 .card03-no {
-    left: 2.98507463%;
-  }
-  .card03.card03-01 .card03-img {
-    right: 9.55223881%;
-  }
-  .card03.card03-02 .card03-img {
-    right: auto;
-    left: 10.1492537%;
-  }
-  .card03.card03-03 .card03-img {
-    right: 4.7761194%;
   }
 }
 
