@@ -10,13 +10,9 @@
   <meta name="keywords" content="コメディカル,マイナビ,理学療法士,作業療法士,言語聴覚士,診療放射線技師,臨床工学技士,臨床検査技師,求人,転職,医療,介護,仕事,募集" />
   <meta name="description"
     content="管理栄養士のみなさんは美容クリニックで働くことを検討したことはありますか？美容に興味がある方、患者様への細やかな栄養相談の対応が得意な方にはとくにおすすめできる仕事です。" />
-
-  <!-- 秘密ページが検索サイトに登録されないように -->
-  <meta name="robots" content="noindex">
-
   <title>美容クリニックで働く！管理栄養士求人特集</title>
   <link rel="icon" type="image/vnd.microsoft.icon" href="/common/img/favicon.ico" sizes="16x16" />
-  <!-- <?php
+  <?php
   if (
     ((strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone') !== false) //iphoneか、
       || ((strpos($_SERVER['HTTP_USER_AGENT'], 'Android') !== false) && (strpos($_SERVER['HTTP_USER_AGENT'], 'Mobile') !== false)) //またはAndroidMobile端末、
@@ -28,20 +24,20 @@
   } else {
     echo '<meta name="viewport" content="width=1180" >';
   }
-  ?>-->
-  <link rel="stylesheet" href="../../special/css/beauty.css" type="text/css">
-  <link rel="stylesheet" href="../../special/css/swiper.min.css" />
-  <!-- <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/include/iryokaigo_head_universal_tag.inc"); ?>  -->
+  ?>
+  <link rel="stylesheet" href="/special/css/beauty.css" type="text/css">
+  <link rel="stylesheet" href="/special/css/swiper.min.css" />
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/include/iryokaigo_head_universal_tag.inc"); ?>
 </head>
 
 <body class="bg-green">
-  <!-- <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/include/iryokaigo_bodytop_universal_tag.inc"); ?> -->
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/include/iryokaigo_bodytop_universal_tag.inc"); ?>
   <a name="pageTop" id="pageTop"></a>
 
   <header class="header">
     <div class="header-inner">
       <h1 class="headlogo">
-        <img src="../../special/img/common/logo.png" alt="マイナビコメディカル" />
+        <img src="/special/img/common/logo.png" alt="マイナビコメディカル" />
       </h1>
     </div>
   </header>
@@ -51,10 +47,10 @@
     <div class="mv">
       <div class="mv-inner">
         <div class="mv-balloon">
-          <img src="../../special/img/beauty/mv_title.png" alt="美容クリニックでの働く。">
+          <img src="/special/img/beauty/mv_title.png" alt="美容クリニックでの働く。">
         </div>
         <div class="mv-ttl">
-          <img class="mv-leaf fluffy pc" src="../../special/img/beauty/leaf_pc.png" alt="leaf">
+          <img class="mv-leaf fluffy pc" src="/special/img/beauty/leaf_pc.png" alt="leaf">
           <h2>
             <p class="feature-name">管理栄養士求人特集</p>
           </h2>
@@ -70,9 +66,9 @@
         <div class="content">
           <h3 class="heading">
             <picture>
-              <source media="(min-width: 768px)" srcset="../../special/img/beauty/heading_img01_pc.svg" sizes="648px">
-              <source srcset="../../special/img/beauty/heading_img01_sp.svg 450w" sizes="100%">
-              <img src="../../special/img/beauty/heading_img01_sp.svg" alt="美容クリニックでの働き方とは？">
+              <source media="(min-width: 768px)" srcset="/special/img/beauty/heading_img01_pc.svg" sizes="648px">
+              <source srcset="/special/img/beauty/heading_img01_sp.svg 450w" sizes="100%">
+              <img src="/special/img/beauty/heading_img01_sp.svg" alt="美容クリニックでの働き方とは？">
             </picture>
           </h3>
           <p class="hashtag">
@@ -94,9 +90,9 @@
         <div class="content">
           <h3 class="heading">
             <picture>
-              <source media="(min-width: 768px)" srcset="../../special/img/beauty/heading_img02_pc.svg" sizes="450px">
-              <source srcset="../../special/img/beauty/heading_img02_sp.svg 450w" sizes="100%">
-              <img src="../../special/img/beauty/heading_img02_sp.svg" alt="美容クリニックで働く魅力とは？">
+              <source media="(min-width: 768px)" srcset="/special/img/beauty/heading_img02_pc.svg" sizes="450px">
+              <source srcset="/special/img/beauty/heading_img02_sp.svg 450w" sizes="100%">
+              <img src="/special/img/beauty/heading_img02_sp.svg" alt="美容クリニックで働く魅力とは？">
             </picture>
           </h3>
 
@@ -105,9 +101,9 @@
             <div class="card">
               <div class="card-head active">
                 <span class="card-point">
-                  <img src="../../special/img/beauty/card_heading01_sp.png" alt="01">
+                  <img src="/special/img/beauty/card_heading01_sp.png" alt="01">
                 </span>
-                <img src="../../special/img/beauty/card_heading01_pc.png" alt="01" class="pc">
+                <img src="/special/img/beauty/card_heading01_pc.png" alt="01" class="pc">
                 <p class="card-ttl sp">
                   予防医療に携わる！<br>
                   治験コーディネーター
@@ -128,9 +124,9 @@
             <div class="card">
               <div class="card-head">
                 <span class="card-point">
-                  <img src="../../special/img/beauty/card_heading02_sp.png" alt="02">
+                  <img src="/special/img/beauty/card_heading02_sp.png" alt="02">
                 </span>
-                <img src="../../special/img/beauty/card_heading02_pc.png" alt="02" class="pc">
+                <img src="/special/img/beauty/card_heading02_pc.png" alt="02" class="pc">
                 <p class="card-ttl sp">
                   美容クリニックで<br>
                   働く魅力とは？
@@ -151,9 +147,9 @@
             <div class="card">
               <div class="card-head">
                 <span class="card-point">
-                  <img src="../../special/img/beauty/card_heading03_sp.png" alt="03">
+                  <img src="/special/img/beauty/card_heading03_sp.png" alt="03">
                 </span>
-                <img src="../../special/img/beauty/card_heading03_pc.png" alt="03" class="pc">
+                <img src="/special/img/beauty/card_heading03_pc.png" alt="03" class="pc">
                 <p class="card-ttl sp">
                   美容クリニックで<br>
                   働く際に気をつけること
@@ -180,7 +176,7 @@
           <div class="cta-img"></div>
           <div class="btn-wrap">
             <p class="lead">
-              <img src="../../special/img/beauty/heading_img_entry.png" alt="entry"><br>
+              <img src="/special/img/beauty/heading_img_entry.png" alt="entry"><br>
               管理栄養士の美容クリニック求人は<br>
               マイナビコメディカルの<br>
               専任アドバイザーへご相談ください！
@@ -196,8 +192,8 @@
       <section class="joboffer">
         <div class="content">
           <h3 class="heading">
-            <img src="../../special/img/beauty/heading_img03_sp.svg" alt="マイナビコメディカルではこんな求人をご紹介" class="sp">
-            <img src="../../special/img/beauty/heading_img03_pc.svg" alt="マイナビコメディカルではこんな求人をご紹介" class="pc">
+            <img src="/special/img/beauty/heading_img03_sp.svg" alt="マイナビコメディカルではこんな求人をご紹介" class="sp">
+            <img src="/special/img/beauty/heading_img03_pc.svg" alt="マイナビコメディカルではこんな求人をご紹介" class="pc">
           </h3>
           <div class="joboffer-slider">
             <div class="swiper-container">
@@ -207,7 +203,7 @@
                   <div class="card02">
                     <div class="card02-head">
                       <div class="card02-img">
-                        <img src="../../special/img/beauty/offer_img_nrd01.png" alt="求人01">
+                        <img src="/special/img/beauty/offer_img_nrd01.png" alt="求人01">
                       </div>
                       <p class="card02-ttl">
                         年間休日120日！福利厚生充実！<br class="pc">
@@ -239,7 +235,7 @@
                   <div class="card02">
                     <div class="card02-head">
                       <div class="card02-img">
-                        <img src="../../special/img/beauty/offer_img_nrd02.png" alt="求人02">
+                        <img src="/special/img/beauty/offer_img_nrd02.png" alt="求人02">
                       </div>
                       <p class="card02-ttl">
                         未経験OK！美容業界で<br class="pc">
@@ -271,7 +267,7 @@
                   <div class="card02">
                     <div class="card02-head">
                       <div class="card02-img">
-                        <img src="../../special/img/beauty/offer_img_nrd03.png" alt="求人03">
+                        <img src="/special/img/beauty/offer_img_nrd03.png" alt="求人03">
                       </div>
                       <p class="card02-ttl">
                         オープニングスタッフ募集！<br class="pc">
@@ -309,15 +305,15 @@
       <section class="merit bg-green">
         <div class="content">
           <h3 class="heading">
-            <img src="../../special/img/beauty/heading_img04_pc.svg" alt="マイナビコメディカルの強み">
+            <img src="/special/img/beauty/heading_img04_pc.svg" alt="マイナビコメディカルの強み">
           </h3>
 
           <section id="merit01" class="m-section">
             <div class="m-section__inner">
               <div class="m-section__illust">
                 <div class="m-section__illust-bg">
-                  <img class="cloud" src="../../special/img/beauty/cloud01.png" alt="cloud">
-                  <img class="m-section__illust-interior" src="../../special/img/beauty/card03_img01.png"
+                  <img class="cloud" src="/special/img/beauty/cloud01.png" alt="cloud">
+                  <img class="m-section__illust-interior" src="/special/img/beauty/card03_img01.png"
                     alt="求人を紹介する女性イラスト">
                 </div>
               </div>
@@ -342,8 +338,8 @@
             <div class="m-section__inner">
               <div class="m-section__illust">
                 <div class="m-section__illust-bg">
-                  <img class="cloud" src="../../special/img/beauty/cloud02.png" alt="求人情報を確認するイラスト">
-                  <img class="m-section__illust-interior" src="../../special/img/beauty/card03_img02.png">
+                  <img class="cloud" src="/special/img/beauty/cloud02.png" alt="求人情報を確認するイラスト">
+                  <img class="m-section__illust-interior" src="/special/img/beauty/card03_img02.png">
                 </div>
               </div>
               <div class="m-section__content">
@@ -365,8 +361,8 @@
             <div class="m-section__inner">
               <div class="m-section__illust">
                 <div class="m-section__illust-bg">
-                  <img class="cloud" src="../../special/img/beauty/cloud03.png" alt="条件・給与の交渉するイラスト">
-                  <img class="m-section__illust-interior" src="../../special/img/beauty/card03_img03.png">
+                  <img class="cloud" src="/special/img/beauty/cloud03.png" alt="条件・給与の交渉するイラスト">
+                  <img class="m-section__illust-interior" src="/special/img/beauty/card03_img03.png">
                 </div>
               </div>
               <div class="m-section__content">
@@ -389,7 +385,7 @@
         <div class="heading-wrap">
           <h3 class="heading">
             <div class="voice-img"></div>
-            <img src="../../special/img/beauty/heading_img05_pc.svg" alt="マイナビコメディカルを利用された方の声" class="voice-ttl">
+            <img src="/special/img/beauty/heading_img05_pc.svg" alt="マイナビコメディカルを利用された方の声" class="voice-ttl">
           </h3>
         </div>
         <div class="content content-w1040">
@@ -401,7 +397,7 @@
                   <div class="card04">
                     <div class="card04-head">
                       <div class="card04-img">
-                        <img src="../../special/img/beauty/card04_img04.png" alt="利用された方の声女性イラスト">
+                        <img src="/special/img/beauty/card04_img04.png" alt="利用された方の声女性イラスト">
                       </div>
                       <div class="card04-wrap">
                         <div class="card04-ttl">はじめての<br>転職もスムーズに</div>
@@ -428,7 +424,7 @@
                   <div class="card04">
                     <div class="card04-head">
                       <div class="card04-img">
-                        <img src="../../special/img/beauty/card04_img01.png" alt="利用された方の声男性イラスト">
+                        <img src="/special/img/beauty/card04_img01.png" alt="利用された方の声男性イラスト">
                       </div>
                       <div class="card04-wrap">
                         <div class="card04-ttl">とにかく<br>詳しい！</div>
@@ -455,7 +451,7 @@
                   <div class="card04">
                     <div class="card04-head">
                       <div class="card04-img">
-                        <img src="../../special/img/beauty/card04_img05.png" alt="利用された方の声女性イラスト">
+                        <img src="/special/img/beauty/card04_img05.png" alt="利用された方の声女性イラスト">
                       </div>
                       <div class="card04-wrap">
                         <div class="card04-ttl">ブランクが<br>あっても安心</div>
@@ -483,7 +479,7 @@
                   <div class="card04">
                     <div class="card04-head">
                       <div class="card04-img">
-                        <img src="../../special/img/beauty/card04_img03.png" alt="利用された方の声男性イラスト">
+                        <img src="/special/img/beauty/card04_img03.png" alt="利用された方の声男性イラスト">
                       </div>
                       <div class="card04-wrap">
                         <div class="card04-ttl">働き<br>ながらでも…</div>
@@ -510,7 +506,7 @@
                   <div class="card04">
                     <div class="card04-head">
                       <div class="card04-img">
-                        <img src="../../special/img/beauty/card04_img06.png" alt="利用された方の声女性イラスト">
+                        <img src="/special/img/beauty/card04_img06.png" alt="利用された方の声女性イラスト">
                       </div>
                       <div class="card04-wrap">
                         <div class="card04-ttl">面接対策や<br>応募書類の添削も！</div>
@@ -544,8 +540,8 @@
       <section class="flow bg-green">
         <div class="content">
           <h3 class="heading">
-            <img class="sp" src="../../special/img/beauty/heading_img06_sp.svg" alt="ご利用から入職までの流れ">
-            <img class="pc" src="../../special/img/beauty/heading_img06_pc.svg" alt="ご利用から入職までの流れ">
+            <img class="sp" src="/special/img/beauty/heading_img06_sp.svg" alt="ご利用から入職までの流れ">
+            <img class="pc" src="/special/img/beauty/heading_img06_pc.svg" alt="ご利用から入職までの流れ">
 
           </h3>
           <div class="o-scroll">
@@ -561,7 +557,7 @@
                     </div>
                     <div class="steplist-item-cont">
                       <div class="steplist-item-img">
-                        <img src="../../special/img/beauty/steplist_img01.png" alt="簡単登録イラスト">
+                        <img src="/special/img/beauty/steplist_img01.png" alt="簡単登録イラスト">
                       </div>
                       <div class="steplist-item-body">
                         <div class="steplist-item-txt">
@@ -586,7 +582,7 @@
                     </div>
                     <div class="steplist-item-cont">
                       <div class="steplist-item-img">
-                        <img src="../../special/img/beauty/steplist_img02.png" alt="転職相談イラスト">
+                        <img src="/special/img/beauty/steplist_img02.png" alt="転職相談イラスト">
                       </div>
                       <div class="steplist-item-body">
                         <div class="steplist-item-txt">
@@ -610,7 +606,7 @@
                     </div>
                     <div class="steplist-item-cont">
                       <div class="steplist-item-img">
-                        <img src="../../special/img/beauty/steplist_img03.png" alt="求人を紹介するイラスト">
+                        <img src="/special/img/beauty/steplist_img03.png" alt="求人を紹介するイラスト">
                       </div>
                       <div class="steplist-item-body">
                         <div class="steplist-item-txt">
@@ -636,7 +632,7 @@
                     </div>
                     <div class="steplist-item-cont">
                       <div class="steplist-item-img">
-                        <img src="../../special/img/beauty/steplist_img04.png" alt="履歴書添削・面接対策イラスト">
+                        <img src="/special/img/beauty/steplist_img04.png" alt="履歴書添削・面接対策イラスト">
                       </div>
                       <div class="steplist-item-body">
                         <div class="steplist-item-txt">
@@ -663,7 +659,7 @@
                     </div>
                     <div class="steplist-item-cont">
                       <div class="steplist-item-img">
-                        <img src="../../special/img/beauty/steplist_img05.png" alt="面接イラスト">
+                        <img src="/special/img/beauty/steplist_img05.png" alt="面接イラスト">
                       </div>
                       <div class="steplist-item-body">
                         <div class="steplist-item-txt">
@@ -689,7 +685,7 @@
                     </div>
                     <div class="steplist-item-cont">
                       <div class="steplist-item-img">
-                        <img src="../../special/img/beauty/steplist_img06.png" alt="アドバイザーのイラスト">
+                        <img src="/special/img/beauty/steplist_img06.png" alt="アドバイザーのイラスト">
                       </div>
                       <div class="steplist-item-body">
                         <div class="steplist-item-txt">
@@ -728,7 +724,7 @@
             <li>
               <div class="media">
                 <div class="media-img">
-                  <img src="../../special/img/common/img_0yen.png" alt="">
+                  <img src="/special/img/common/img_0yen.png" alt="">
                 </div>
                 <div class="media-body">
                   <p class="media-ttl">
@@ -743,7 +739,7 @@
             <li>
               <div class="media">
                 <div class="media-img">
-                  <img src="../../special/img/common/img_privacy.png" alt="">
+                  <img src="/special/img/common/img_privacy.png" alt="">
                 </div>
                 <div class="media-body">
                   <p class="media-ttl">
@@ -758,7 +754,7 @@
             <li>
               <div class="media">
                 <div class="media-img">
-                  <img src="../../special/img/common/img_yuryozigyosya.png" alt="">
+                  <img src="/special/img/common/img_yuryozigyosya.png" alt="">
                 </div>
                 <div class="media-body">
                   <p class="media-ttl">
@@ -824,10 +820,10 @@
   </div>
 </body>
 
-<script type="text/javascript" src="../../special/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="../../special/js/swiper.min.js"></script>
-<script type="text/javascript" src="../../special/js/scrollreveal.min.js"></script>
-<script type="text/javascript" src="../../special/js/beauty.js"></script>
+<script type="text/javascript" src="/special/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/special/js/swiper.min.js"></script>
+<script type="text/javascript" src="/special/js/scrollreveal.min.js"></script>
+<script type="text/javascript" src="/special/js/beauty.js"></script>
 
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/include/iryokaigo_bodybottom_universal_tag.inc"); ?>
 

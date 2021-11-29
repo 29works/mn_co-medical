@@ -165,7 +165,7 @@ section {
     z-index: 5;
     width: 100%;
     background: #F3A4A0;
-    background-image: url(../../special/img/beauty/bg-pink.png);
+    background-image: url(/special/img/beauty/bg-pink.png);
 }
 .content {
   position: relative;
@@ -308,7 +308,7 @@ section {
   content: '';
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../../special/img/beauty/heading_icon.svg');
+  background-image: url('/special/img/beauty/heading_icon.svg');
 }
 .heading img {
   max-width: 100%;
@@ -324,7 +324,7 @@ section {
   .heading::before {
     width: 40px;
     height: 66px;
-    background-image: url('../../special/img/beauty/heading_icon_sp.svg') no-repeat;
+    background-image: url('/special/img/beauty/heading_icon_sp.svg') no-repeat;
     background-size: contain;
   }
   .heading img {
@@ -381,7 +381,7 @@ section {
   background-color: var(--blue);
 }
 .bg-green {
-  background-image: url(../../special/img/beauty/bg-top.png);
+  background-image: url(/special/img/beauty/bg-top.png);
   background-repeat: repeat;
 }
 
@@ -420,7 +420,7 @@ section {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: url('../../special/img/beauty/arrow.png') no-repeat center;
+  background: url('/special/img/beauty/arrow.png') no-repeat center;
   background-size: 22px 22px;
 }
 
@@ -513,7 +513,7 @@ background-size: 1.2rem;
   height: 410px;
   width: 100%;
   min-width: 594px;
-  background-image: url(../../special/img/beauty/mv_bg_pc.png);
+  background-image: url(/special/img/beauty/mv_bg_pc.png);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 623px;
@@ -568,13 +568,13 @@ background-size: 1.2rem;
     /* max-height: 80vh; */
     max-height: 167vw;
     padding-top: 20px;
-    background-image: radial-gradient(#ffffff00 10%, #7cbb4d8f 90%), url(../../special/img/beauty/bg-top.png)
+    background-image: radial-gradient(#ffffff00 10%, #7cbb4d8f 90%), url(/special/img/beauty/bg-top.png)
   }
   .mv-inner {
     min-width: 100%;
     height: 146vw;
     max-height: 650px;
-    background-image: url(../../special/img/beauty/mv_bg_sp.png);
+    background-image: url(/special/img/beauty/mv_bg_sp.png);
     background-size: 90vw;
     background-position: center;
   }
@@ -617,7 +617,7 @@ background-size: 1.2rem;
   width: 674px;
   height: 278px;
   content: '';
-  background: url('../../special/img/beauty/main_sub.png') no-repeat;
+  background: url('/special/img/beauty/main_sub.png') no-repeat;
   background-position: center;
 }
 .about .text{
@@ -635,7 +635,7 @@ background-size: 1.2rem;
 }
 .about .heading::before{
   height: 105px;
-  background-image: url('../../special/img/beauty/merit_heading_icon.svg');
+  background-image: url('/special/img/beauty/merit_heading_icon.svg');
 }
 .about .hashtag {
   margin: 0 15% 25px;
@@ -695,7 +695,7 @@ background-size: 1.2rem;
     top: -16px;
     width: 40px;
     height: 77px;
-    background: url('../../special/img/beauty/main_scroll_sp.png') no-repeat;
+    background: url('/special/img/beauty/main_scroll_sp.png') no-repeat;
   }
   .about .heading::before {
     display: none;
@@ -793,7 +793,7 @@ background-size: 1.2rem;
   z-index: 1;
   width: 100%;
   height: 400px;
-  background-image: url(../../special/img/beauty/img01.png);
+  background-image: url(/special/img/beauty/img01.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -896,15 +896,15 @@ background-size: 1.2rem;
     height: 280px;
   }
   .card-unit.card-unit-col03 .card:first-of-type .card-head.active::after {
-    background: url(../../special/img/beauty/card_heading01_pc.png) no-repeat center;
+    background: url(/special/img/beauty/card_heading01_pc.png) no-repeat center;
     background-size: 268px 254px;
   }
   .card-unit.card-unit-col03 .card:nth-of-type(2) .card-head.active::after {
-    background: url(../../special/img/beauty/card_heading02_pc.png) no-repeat center;
+    background: url(/special/img/beauty/card_heading02_pc.png) no-repeat center;
     background-size: 268px 254px;
   }
   .card-unit.card-unit-col03 .card:last-of-type .card-head.active::after {
-    background: url(../../special/img/beauty/card_heading03_pc.png) no-repeat center;
+    background: url(/special/img/beauty/card_heading03_pc.png) no-repeat center;
     background-size: 268px 254px;
   }
   .card-unit.card-unit-col03 .card .card-head.active::before {
@@ -1086,7 +1086,7 @@ background-size: 1.2rem;
 --------------------------- */
 .cta {
   position: relative;
-  background: url(../../special/img/beauty/bg-top.png) var(--green);
+  background: url(/special/img/beauty/bg-top.png) var(--green);
 }
 .cta-img {
   position: absolute;
@@ -1094,7 +1094,7 @@ background-size: 1.2rem;
   left: -40px;
   width: 100%;
   height: 324px;
-  background-image: url(../../special/img/beauty/cta_img.png);
+  background-image: url(/special/img/beauty/cta_img.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1466,6 +1466,7 @@ background-size: 1.2rem;
     left: 0;
   }
 }
+
 @media only screen and (max-width: 750px) {
   .merit {
     padding: 0 0 20%;
@@ -1520,6 +1521,7 @@ background-size: 1.2rem;
     margin-top: -32.8vw;
   }
 }
+
 @media only screen and (min-width: 751px) and (max-width: 1080px) and (min-width: 751px) {
   .merit .card-unit {
     width: initial;
@@ -1531,6 +1533,7 @@ background-size: 1.2rem;
     padding-left: 355px;
   }
 }
+
 @media only screen and (min-width: 751px) and (max-width: 1080px) and (min-width: 751px) {
   .m-section {
     width: initial;
@@ -1538,6 +1541,7 @@ background-size: 1.2rem;
     margin-right: 45px;
   }
 }
+
 @media only screen and (min-width: 751px) {
   .m-section {
     width: 1080px;
@@ -1583,6 +1587,7 @@ background-size: 1.2rem;
     height: 25vw;
   }
 }
+
 @media only screen and (max-width: 750px) {
   .m-section {
     margin-bottom: 70px;
@@ -1620,6 +1625,7 @@ background-size: 1.2rem;
     opacity: 0.4;
   }
 }
+
 @media only screen and (max-width: 374px) {
   .m-section__content > .title {
     font-size: 22px;
@@ -1654,7 +1660,7 @@ img.voice-ttl {
   bottom: 0;
   width: 100%;
   height: 324px;
-  background-image: url(../../special/img/beauty/voice_img.png);
+  background-image: url(/special/img/beauty/voice_img.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;
@@ -1693,11 +1699,13 @@ img.voice-ttl {
   right: 0;
   background-image: url('data:image/svg+xml,%0A%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'16.55\' height=\'13.512\' viewBox=\'0 0 16.55 13.512\'%3E%3Cg transform=\'translate(-20.049 -20.868)\'%3E%3Cpath d=\'M420.921,4837.84l5.436,6.09-5.436,6.09\' transform=\'translate(-391.098 -4816.306)\' fill=\'none\' stroke=\'%23fff\' stroke-width=\'2\'/%3E%3Cpath d=\'M436.131,4843.83h-15.21\' transform=\'translate(-400.872 -4816.306)\' fill=\'none\' stroke=\'%23fff\' stroke-width=\'2\'/%3E%3C/g%3E%3C/svg%3E');
 }
+
 @media only screen and (max-width: 959px) {
   .uservoice .swiper-container {
     margin: 0 -20px;
   }
 }
+
 @media only screen and (max-width: 1060px) {
   .uservoice .heading {
     display: flex;
@@ -1713,6 +1721,7 @@ img.voice-ttl {
     display: none;
   }
 }
+
 .card04 {
   position: relative;
   width: 100%;
@@ -1786,6 +1795,7 @@ img.voice-ttl {
 	font-size:1.3rem;
   font-weight: 600;
 }
+
 @media only screen and (max-width:768px) {
 	.star .star-point {
 		font-size:1.625rem;
@@ -1813,13 +1823,13 @@ img.voice-ttl {
 }
 
 .icon-rated-yellow {
-	background-image:url(../../special/img/beauty/rated-yellow.svg)
+	background-image:url(/special/img/beauty/rated-yellow.svg)
 }
 .icon-unrated-yellow {
-	background-image:url(../../special/img/beauty/unrated-yellow.svg)
+	background-image:url(/special/img/beauty/unrated-yellow.svg)
 }
 .icon-half-rated-yellow {
-	background-image:url(../../special/img/beauty/half-rated-yellow.svg)
+	background-image:url(/special/img/beauty/half-rated-yellow.svg)
 }
 
 /* ---------------------------
@@ -1831,6 +1841,7 @@ img.voice-ttl {
 .flow .heading::before {
   display: none;
 }
+
 @media only screen and (max-width: 767px) {
   .flow {
     padding: 40px 0;
@@ -1845,6 +1856,7 @@ img.voice-ttl {
     width: 100%;
   }
 }
+
 .steplist {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1881,7 +1893,6 @@ img.voice-ttl {
 .steplist li:last-of-type::after {
   display: none;
 }
-
 .steplist-item {
   position: relative;
   width: 100%;
@@ -1897,7 +1908,6 @@ img.voice-ttl {
   max-width: 57px;
   border-bottom: 1.5px solid;
 }
-
 .steplist-item-head {
   position: relative;
   margin-bottom: 15px;
@@ -2304,7 +2314,7 @@ img.voice-ttl {
   height: 11px;
   margin-right: 4px;
   content: '';
-  background: url('../../special/img/beauty/new_window.png') no-repeat center;
+  background: url('/special/img/beauty/new_window.png') no-repeat center;
   background-size: 11px 11px;
 }
 
