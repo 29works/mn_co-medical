@@ -130,6 +130,7 @@ html {
 
 @media only screen and (max-width: 767px) {
   body.bg-green {
+    padding-bottom: 0;
     background-image: none;
     background-color: white;
   }
@@ -2239,7 +2240,7 @@ img.voice-ttl {
   .footer {
     position: relative;
     z-index: 2;
-    padding: 35px 0 0;
+    padding: 35px 0 190px;
     background: white;
     border-top: 1px dotted #999;
   }
