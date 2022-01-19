@@ -437,7 +437,7 @@ h3 {
 	position: fixed;
 	z-index: 10000;
 	right: 54px;
-	bottom: 43px;
+	bottom: 52px;
 	width: 40px;
 	height: 40px;
 }
@@ -1785,6 +1785,7 @@ h3 {
 	position: relative;
 	z-index: 1;
 }
+
 .m-section-title .en {
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-weight: 500;
@@ -1980,7 +1981,7 @@ h3 {
 }
 @media only screen and (max-width: 767px) {
 	.merit {
-		padding: 0px 0px 20%;
+		padding: 100px 0px 5%;
 	}
 	.merit .content {
 		width: 100%;
@@ -2062,9 +2063,23 @@ h3 {
 	/* position: absolute; */
 	display: flex;
 	flex-direction: column;
-	left: 0px;
+	left: 20px;
 }
 @media only screen and (min-width: 751px) {
+	.merit {
+		position: relative;
+		border-bottom: 1px solid #4dbbc4;
+	}
+	.merit::before {
+		position: absolute;
+		content: '';
+		width: 1px;
+		height: 82%;
+		bottom: 0;
+		left: 50%;
+		background: #4dbbc4;
+	}
+
 	.m-section {
 		width: 960px;
 		margin-left: auto;
@@ -2074,10 +2089,23 @@ h3 {
 	.m-section:last-of-type {
 		margin-bottom: 130px;
 	}
+	.m-section__content .merit-no {
+		position: relative;
+	}
+	.m-section__content .merit-no::after {
+		position: absolute;
+		content: '';
+		width: 14px;
+		height: 14px;
+		bottom: 0;
+		left: -41px;
+		border-radius: 10px;
+		background: #4dbbc4;
+	}
 	.m-section__content > .title {
-		font-size: 18px;
+		font-size: 26px;
 		line-height: 1.46;
-		margin-bottom: 20px;
+		margin: 14px 0;
 	}
 	.m-section__content .merit-txt {
 		width: 415px;
@@ -2102,7 +2130,7 @@ h3 {
 }
 @media only screen and (max-width: 750px) {
 	.m-section {
-		margin-bottom: 70px;
+		margin-bottom: 130px;
 	}
 	.m-section__illust {
 		width: 100%;
@@ -2115,23 +2143,23 @@ h3 {
 		padding-top: 55px;
 	}
 	.m-section__content > .title {
-		font-size: 26px;
+		font-size: 25px;
 		line-height: 1.5;
 		margin-bottom: 10px;
 	}
 	.m-section-title {
 		text-align: left;
-		margin-bottom: -60px;
+		/* margin-bottom: -60px; */
 	}
 	.m-section-title .jp {
-		font-size: 13px;
-		margin-top: -25px;
+		font-size: 4vw;
+		margin-top: -1px;
 	}
 	.m-section-title .en {
-		font-size: 7vw;
+		font-size: 10vw;
 		line-height: 1.16;
 		position: relative;
-		top: -140px;
+		top: -18px;
 		color: rgba(0, 0, 0, 0.21);
 		opacity: 0.4;
 	}
@@ -2189,7 +2217,7 @@ img.voice-ttl {
 	width: 56px;
 	height: 56px;
 	border-radius: 50%;
-	background-color: rgba(149, 149, 149, 0.65);
+	background-color: rgb(152 235 227 / 68%);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 18px 14px;
@@ -2791,7 +2819,7 @@ img.voice-ttl {
 	background-size: 11px 11px;
 }
 
---------------------------- animation --------------------------- .motion-txt {
+.motion-txt {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;

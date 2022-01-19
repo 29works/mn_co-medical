@@ -174,7 +174,7 @@ $(document).ready(function () {
 		factorLg: -0.3,
 		factorMd: -0.4,
 		factorSm: -0.2,
-		factorXs: -0.1,
+		factorXs: -0.2,
 		type: 'foreground',
 		direction: 'horizontal',
 		transition: 'transform -0.3s linear',
