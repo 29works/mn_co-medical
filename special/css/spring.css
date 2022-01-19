@@ -452,7 +452,7 @@ h3 {
 	text-decoration: none;
 	text-indent: -9999px;
 	border-radius: 50%;
-	background: #ff5f18a6;
+	background: var(--orange);
 }
 #page-top a::before {
 	position: absolute;
@@ -466,11 +466,7 @@ h3 {
 }
 @media only screen and (max-width: 767px) {
 	#page-top {
-		bottom: 110px;
-	}
-	#page-top a {
-		width: 60px;
-		height: 60px;
+		bottom: 128px;
 	}
 }
 .floating {
@@ -1088,7 +1084,7 @@ h3 {
 	z-index: 3;
 	transform: rotate(-4deg);
 	transform-origin: right top;
-	margin: 20px 0px 120px;
+	margin: 20px 0px 75px;
 }
 .top_mv_bottom_line ._inner {
 	background-image: url('../../special/img/spring/top_mv_bottom_line.png');
@@ -1170,7 +1166,7 @@ h3 {
 }
 @media only screen and (max-width: 767px) {
 	.point {
-		padding: 0 0 50px;
+		padding: 30px 0 50px;
 		overflow: hidden;
 		background: none;
 	}
@@ -2107,7 +2103,7 @@ h3 {
 		background: #4dbbc4;
 	}
 	.m-section__content > .title {
-		font-size: 5.2vw;
+		font-size: 26px;
 		line-height: 1.46;
 		margin: 14px 0;
 	}
@@ -2147,7 +2143,7 @@ h3 {
 		padding-top: 55px;
 	}
 	.m-section__content > .title {
-		font-size: 25px;
+		font-size: 5.2vw;
 		line-height: 1.5;
 		margin-bottom: 10px;
 	}
