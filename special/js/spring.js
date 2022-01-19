@@ -177,7 +177,7 @@ $(document).ready(function () {
 		factor: -0.5,
 		type: 'foreground',
 		direction: 'horizontal',
-		transition: 'transform .1s linear',
+		transition: 'transform 3s linear',
 	});
 });
 
