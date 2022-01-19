@@ -769,15 +769,9 @@ h3 {
 }
 
 @media (max-width: 59.99em) {
-	.p-featureHorizontal {
-		width: 100vw;
-		max-width: calc((50vw + 100px) * 3);
-		transform: rotate(0.0001deg) translateX(100vw);
-	}
-	.p-featureHorizontal.-en {
+	/* .p-featureHorizontal.-en {
 		display: block;
 		width: 100vw;
-		transform: translate(0px, 0px) !important;
 	}
 	.p-featureHorizontal.-en > li {
 		display: block;
@@ -786,7 +780,7 @@ h3 {
 	}
 	.p-featureHorizontal.-en > li:first-child {
 		margin-top: 0px;
-	}
+	} */
 	.p-featureHorizontal > li {
 		width: 100vw;
 		max-width: calc(80vw + 100px);
@@ -1729,8 +1723,8 @@ h3 {
 	background: #f2fcfb;
 }
 #feature .heading {
-	margint-top: 12%;
-	padding-top: 84px;
+	/* margin-top: 12%; */
+	padding-top: 81px;
 }
 .merit .heading img,
 #feature .heading img {
@@ -1803,7 +1797,7 @@ h3 {
 
 @media only screen and (max-width: 767px) {
 	#feature .heading::after {
-		top: 32px;
+		top: 53px;
 	}
 
 	.t-product_lp__feature__sticky {
@@ -1899,8 +1893,8 @@ h3 {
 		top: 0;
 		display: flex;
 		width: 100%;
-		height: calc(90vh - 90px);
-		align-items: center;
+		height: calc(100vh - 261px);
+		/* align-items: center; */
 	}
 	.t-product_lp__feature.-en .t-product_lp__feature__sticky {
 		position: relative;
@@ -1913,7 +1907,7 @@ h3 {
 		display: block;
 		top: 0;
 		margin-top: 0;
-		height: 90vh;
+		height: 100vh;
 	}
 	.t-product_lp__feature__bg__title {
 		position: relative;
@@ -1927,7 +1921,7 @@ h3 {
 		height: 100%;
 	}
 	.t-product_lp__feature__horizontal {
-		height: 101vh;
+		height: 900px;
 	}
 	.t-product_lp__feature.-en .t-product_lp__feature__horizontal {
 		height: auto;
