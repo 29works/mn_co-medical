@@ -627,9 +627,10 @@ h3 {
 .p__pic img {
 	display: block;
 	position: absolute;
-	left: 50%;
-	top: 287px;
-	margin-left: -453px;
+	/* left: 68%; */
+	/* right: auto; */
+	top: 53vw;
+	/* margin-left: -453px; */
 }
 .p__sakura img {
 	display: block;
@@ -916,8 +917,8 @@ h3 {
 	}
 	.p__pic img {
 		width: 100vw;
-		top: 240px;
-		margin-left: -210px;
+		/* top: 240px; */
+		/* margin-left: -308px; */
 	}
 	.p__people {
 		top: -228px;
@@ -2210,7 +2211,7 @@ img.voice-ttl {
 }
 @media only screen and (max-width: 959px) {
 	.uservoice {
-		padding-top: 230px;
+		padding-top: 110px;
 	}
 	.uservoice .swiper-container {
 		margin: 0px -20px;
@@ -2452,7 +2453,7 @@ img.voice-ttl {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		flex-direction: column;
-		margin: 34px 141px;
+		margin: 36px 20%;
 	}
 	.steplist li {
 		width: 95%;
