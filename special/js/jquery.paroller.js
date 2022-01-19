@@ -41,9 +41,9 @@
 		horizontal: function (elem, elemOffset, transition, oldTransform) {
 			oldTransform === 'none' ? (oldTransform = '') : true;
 			return elem.css({
-				'-webkit-transform': 'translateX(' + elemOffset + 'vw)' + oldTransform,
-				'-moz-transform': 'translateX(' + elemOffset + 'vw)' + oldTransform,
-				transform: 'translateX(' + elemOffset + 'vw)' + oldTransform,
+				'-webkit-transform': 'translateX(' + elemOffset + '10' + 'px)' + oldTransform,
+				'-moz-transform': 'translateX(' + elemOffset + '10' + 'px)' + oldTransform,
+				transform: 'translateX(' + elemOffset + '10' + 'px)' + oldTransform,
 				transition: transition,
 				'will-change': 'transform',
 			});
@@ -111,7 +111,7 @@
 				factorMd: 0, // - to +
 				factorLg: 0, // - to +
 				factorXl: 0, // - to +
-				transition: 'translate 0.1s ease', // CSS transition
+				transition: 'translate 1s ease', // CSS transition
 				type: 'background', // foreground
 				direction: 'vertical', // horizontal
 			},
