@@ -466,7 +466,11 @@ h3 {
 }
 @media only screen and (max-width: 767px) {
 	#page-top {
-		bottom: 128px;
+		bottom: 110px;
+	}
+	#page-top a {
+		width: 60px;
+		height: 60px;
 	}
 }
 .floating {
