@@ -452,7 +452,7 @@ h3 {
 	text-decoration: none;
 	text-indent: -9999px;
 	border-radius: 50%;
-	background: var(--orange);
+	background: #ff5f18a6;
 }
 #page-top a::before {
 	position: absolute;
@@ -2107,7 +2107,7 @@ h3 {
 		background: #4dbbc4;
 	}
 	.m-section__content > .title {
-		font-size: 26px;
+		font-size: 5.2vw;
 		line-height: 1.46;
 		margin: 14px 0;
 	}
