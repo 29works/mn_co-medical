@@ -111,7 +111,7 @@
 				factorMd: 0, // - to +
 				factorLg: 0, // - to +
 				factorXl: 0, // - to +
-				transition: 'translate 1s ease', // CSS transition
+				transition: 'translate 0.1s ease', // CSS transition
 				type: 'background', // foreground
 				direction: 'vertical', // horizontal
 			},

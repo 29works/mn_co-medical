@@ -2210,7 +2210,7 @@ img.voice-ttl {
 }
 @media only screen and (max-width: 959px) {
 	.uservoice {
-		padding-top: 300px;
+		padding-top: 230px;
 	}
 	.uservoice .swiper-container {
 		margin: 0px -20px;
@@ -2797,10 +2797,7 @@ img.voice-ttl {
 	background-size: 11px 11px;
 }
 
-/* ---------------------------
- animation
---------------------------- */
-/* .motion-txt {
+--------------------------- animation --------------------------- .motion-txt {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
@@ -2859,4 +2856,4 @@ img.voice-ttl {
 }
 .js-scroll.done .motion-txt .motion-inner {
 	opacity: 1;
-} */
+}
