@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@100;300;400;500;700;900&display=swap');
 :root {
 	--blue: #62c0ef;
 	--blue02: #c9e4f6;
@@ -502,7 +502,7 @@ h3 {
 }
 .header {
 	width: 100%;
-	padding: 0px 0px 14px;
+	padding: 10px 0px;
 }
 .header-inner {
 	max-width: 1000px;
@@ -571,6 +571,7 @@ h3 {
 	max-width: 514px;
 	margin: 59px auto;
 	text-align: center;
+	font-family: 'Noto Serif JP', serif;
 }
 .mv-ttl h2 img {
 	width: 100%;
@@ -921,7 +922,36 @@ h3 {
 }
 
 @media only screen and (max-width: 767px) {
-	.mv {
+	.p-lpKeyVisual {
+		position: relative;
+	}
+	.p-lpKeyVisual .btn-wrap {
+		position: absolute;
+		margin: 0px auto;
+		width: 90%;
+		max-width: 450px;
+		left: 0;
+		right: 0;
+		bottom: 34px;
+	}
+	.p-lpKeyVisual .btn-wrap .btn-entry {
+		padding: 3% 2% 3% 12%;
+	}
+	.p-lpKeyVisual .btn-wrap .btn-entry span {
+		position: relative;
+		padding: 0;
+		font-size: 3.8vw;
+		letter-spacing: 0.5px;
+	}
+	.p-lpKeyVisual .btn-wrap .btn-entry span::before {
+		position: absolute;
+		content: '';
+		width: 30px;
+		height: 30px;
+		background: url('../../special/img/spring/entry-icon.svg') no-repeat;
+		left: -28px;
+	}
+	/* .mv {
 		max-height: 167vw;
 		padding-top: 20px;
 		background-image: radial-gradient(rgba(255, 255, 255, 0) 10%, rgba(124, 187, 77, 0.56) 90%), url('../../special/img/spring/bg-top.png');
@@ -933,7 +963,7 @@ h3 {
 		background-image: url('../../special/img/spring/mv_bg_sp.png');
 		background-size: 90vw;
 		background-position: center center;
-	}
+	} */
 	.mv-balloon img {
 		margin-top: 0px;
 		width: 88%;
@@ -1593,7 +1623,6 @@ h3 {
 	}
 	.joboffer-slider .swiper-container .swiper-wrapper .swiper-slide {
 		width: 80%;
-		/* box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px; */
 	}
 }
 .card02 {
@@ -1715,6 +1744,14 @@ h3 {
 	.card02-type,
 	.card02-job {
 		font-size: 11px;
+	}
+	.card-ttl {
+		font-size: 1em;
+	}
+	.card-head::before {
+		right: 1px;
+		width: 12px;
+		height: 12px;
 	}
 }
 
