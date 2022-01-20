@@ -164,23 +164,6 @@ $(function () {
 	});
 });
 
-$(document).ready(function () {
-	//initialize paroller.js
-	$('[data-paroller-factor]').paroller();
-	//initialize paroller.js and set options for elements with .paroller class
-	$('.parollerHorizontal').paroller({
-		factor: 0.5,
-		factorXl: 0.4,
-		factorLg: -0.3,
-		factorMd: -0.4,
-		factorSm: -0.2,
-		factorXs: -0.2,
-		type: 'foreground',
-		direction: 'horizontal',
-		transition: 'transform -0.3s linear',
-	});
-});
-
 // スクロールのドラッグ有効化
 jQuery.prototype.mousedragscrollable = function () {
 	let target;
