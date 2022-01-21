@@ -21,12 +21,13 @@ $(window).scroll(function () {
 // uservoice swiper-slide
 $(function () {
 	var voice = new Swiper('.uservoice .swiper-container', {
+		nextButton: '.swiper-button-next',
+		prevButton: '.swiper-button-prev',
 		loop: true,
 		slidesPerView: 3.5,
 		spaceBetween: 16,
 		centeredSlides: true,
-		nextButton: '.swiper-button-next',
-		prevButton: '.swiper-button-prev',
+		loopAdditionalSlides: 1,
 		breakpoints: {
 			767: {
 				slidesPerView: 1.5,
