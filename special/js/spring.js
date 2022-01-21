@@ -117,7 +117,7 @@ $(function () {
 		easing: 'linear',
 	});
 	// merit
-	ScrollReveal().reveal('.cloud', {
+	ScrollReveal().reveal('.m-section-title', {
 		origin: 'left',
 		distance: '50px',
 		duration: '500',
@@ -209,3 +209,10 @@ jQuery.prototype.mousedragscrollable = function () {
 		});
 };
 $('.o-scroll').mousedragscrollable();
+
+// luxy
+luxy.init({
+	wrapper: '#luxy',
+	targets: '.luxy-el',
+	wrapperSpeed: 0.08,
+});
