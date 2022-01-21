@@ -864,6 +864,9 @@ h3 {
 		width: 92%;
 		margin: 34px auto 0px;
 	}
+	.p__pic img {
+		top: 239px;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -1790,8 +1793,7 @@ h3 {
 
 	.m-section__content {
 		width: calc(100% - 40px);
-		margin-left: auto;
-		margin-right: auto;
+		margin: 10% auto 0;
 	}
 
 	.m-section__content > .title {
