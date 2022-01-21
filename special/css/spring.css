@@ -564,7 +564,14 @@ h3 {
 	height: 14px;
 	background-size: 1.2rem;
 }
-
+@media only screen and (min-width: 767px) {
+	.floating .btn-entry {
+		padding: 14px 30px 14px 64px;
+	}
+	.floating .btn-entry span {
+		padding: 7.5px 0;
+	}
+}
 @media only screen and (max-width: 767px) {
 	.floating {
 		bottom: 20px;
@@ -696,43 +703,43 @@ h3 {
 	font-size: 16px;
 	padding: 2px 12px 5px;
 }
-.p__bg,
-.p__sakura,
-.p__pic,
-.p__people {
+.mv__bg,
+.mv__sakura,
+.mv__pic,
+.mv__people {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 100%;
 	height: 100%;
 }
-.p__bg {
+.mv__bg {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-image: url('../../special/img/spring/p__bg.png');
+	background-image: url('../../special/img/spring/mv__bg.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-.p__pic img {
+.mv__pic img {
 	display: block;
 	position: absolute;
 }
-.p__sakura img {
+.mv__sakura img {
 	display: block;
 	position: absolute;
 	left: 0px;
 	top: 76px;
 	width: 100%;
 }
-.p__people {
+.mv__people {
 	position: absolute;
 	margin: 0px auto 0px -303.5px;
 	left: 50%;
-	top: -230px;
+	top: 256px;
 }
 .js-mv__sakura {
 	transition-property: transform;
@@ -741,18 +748,12 @@ h3 {
 	backface-visibility: hidden;
 	transform: rotate(0.0001deg) translateY(-500px);
 }
-.js-mv__sakura.is-fadein {
-	transform: rotate(0.0001deg) scale(1) translateY(0px);
-}
 .js-mv__bg {
 	transition-property: transform;
 	transition-duration: 4s;
 	transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 	backface-visibility: hidden;
 	transform: rotate(0.0001deg) scale(1.2);
-}
-.js-mv__bg.is-fadein {
-	transform: rotate(0.0001deg) scale(1);
 }
 .js-mv__pic {
 	transition-property: transform;
@@ -798,44 +799,39 @@ h3 {
 	background-size: cover;
 	overflow: hidden;
 }
-.p__bg li,
-.p__people li {
-	opacity: 0;
-}
-.p__bg li.is-active,
-.p__people li.is-active {
-	opacity: 1;
-}
-.p__bg li {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	background-size: cover;
+
+@media only screen and (min-width: 767px) {
+	.mv__pic img {
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 287px;
+		margin-left: -453px;
+	}
 }
 
 @media only screen and (max-width: 959px) {
-	.mvKeyVisual {
-		height: 605px;
-	}
-	.p__sakura img {
+	.mv__sakura img {
 		top: 100px;
 	}
-	.p__pic img {
+	.mv__pic img {
 		width: 100vw;
 		top: 291px;
 	}
-	.p__people {
-		top: -196px;
-		margin-left: -221.5px;
-		width: 429px;
+	.mv__people {
+		margin: 0 auto;
+		height: auto;
+		width: 69vw;
+		right: 0;
+		left: 0;
+		top: 39%;
 	}
 }
 
 @media only screen and (max-width: 767px) {
 	.mvKeyVisual {
 		position: relative;
+		height: 107vw;
 	}
 	.mvKeyVisual .btn-wrap {
 		position: absolute;
@@ -860,32 +856,30 @@ h3 {
 		width: 92%;
 		margin: 34px auto 0px;
 	}
-	.p__pic img {
-		top: 239px;
+	.mv__people {
+		top: 43%;
+		width: 89vw;
+	}
+	.mv__pic img {
+		top: 264px;
 	}
 }
 
 @media only screen and (max-width: 480px) {
 	.mvKeyVisual {
-		height: 474px;
+		height: 136vw;
 	}
-	.p__people {
-		top: -314px;
+	.mv__people {
+		width: 100vw;
+		top: 50%;
+	}
+	.mv__pic img {
+		top: 250px;
 	}
 }
 @media only screen and (max-width: 374px) {
-	.p__pic img {
+	.mv__pic img {
 		top: 200px;
-	}
-}
-
-@media only screen and (min-width: 767px) {
-	.p__pic img {
-		display: block;
-		position: absolute;
-		left: 50%;
-		top: 287px;
-		margin-left: -453px;
 	}
 }
 
@@ -1677,15 +1671,6 @@ h3 {
 
 	#merit02 .m-section-title {
 		left: 0px;
-	}
-}
-@media only screen and (max-width: 639px) {
-	.t-product_lp__feature {
-		height: 100vh;
-	}
-
-	.t-product_lp__feature.-en {
-		height: auto;
 	}
 }
 
