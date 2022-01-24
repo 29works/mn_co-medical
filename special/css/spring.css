@@ -333,7 +333,7 @@ h3 {
 	content: '';
 	width: 30px;
 	height: 30px;
-	background: url('../../special/img/spring/entry-icon.svg') no-repeat;
+	background: url('/special/img/spring/entry-icon.svg') no-repeat;
 	left: -28px;
 }
 
@@ -392,7 +392,7 @@ h3 {
 		content: '';
 		width: 30px;
 		height: 30px;
-		background: url('../../special/img/spring/entry-icon.svg') no-repeat;
+		background: url('/special/img/spring/entry-icon.svg') no-repeat;
 		left: -28px;
 	}
 	.btn-job-entry {
@@ -482,8 +482,8 @@ h3 {
 
 @media only screen and (max-width: 767px) {
 	.lead {
-		line-height: 2;
 		margin-bottom: 25px;
+		line-height: 2;
 		text-align: left;
 	}
 }
@@ -493,7 +493,7 @@ h3 {
 }
 
 .paper {
-	background-image: url('../../special/img/spring/mv_bg_pc.png');
+	background-image: url('/special/img/spring/mv_bg_pc.png');
 	background-size: cover;
 }
 
@@ -528,7 +528,7 @@ h3 {
 	height: 22px;
 	content: '';
 	transform: translate(-50%, -50%);
-	background: url('../../special/img/spring/arrow.png') center center / 22px 22px no-repeat;
+	background: url('/special/img/spring/arrow.png') center center / 22px 22px no-repeat;
 }
 
 @media only screen and (max-width: 767px) {
@@ -587,6 +587,7 @@ h3 {
 		display: none;
 	}
 }
+
 
 /* ---------------------------
 　header
@@ -659,7 +660,7 @@ h3 {
 	bottom: -1px;
 	width: 100%;
 	height: 60px;
-	background-image: url('../../special/img/spring/mv--pc.png');
+	background-image: url('/special/img/spring/mv--pc.png');
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 100% 100%;
@@ -720,7 +721,7 @@ h3 {
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-image: url('../../special/img/spring/mv__bg.png');
+	background-image: url('/special/img/spring/mv__bg.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -785,7 +786,7 @@ h3 {
 	top: -59px;
 	width: 100%;
 	height: 60px;
-	background-image: url('../../special/img/spring/mv__mask--pc.png');
+	background-image: url('/special/img/spring/mv__mask--pc.png');
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 100% 100%;
@@ -849,7 +850,7 @@ h3 {
 		content: '';
 		width: 30px;
 		height: 30px;
-		background: url('../../special/img/spring/entry-icon.svg') no-repeat;
+		background: url('/special/img/spring/entry-icon.svg') no-repeat;
 		left: -28px;
 	}
 	.mv-ttl {
@@ -884,7 +885,7 @@ h3 {
 }
 
 /* ---------------------------
- about
+　about
 --------------------------- */
 
 .about {
@@ -917,7 +918,7 @@ h3 {
 	height: 160px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-image: url('../../special/img/spring/heading_sakura.png');
+	background-image: url('/special/img/spring/heading_sakura.png');
 	left: -5px;
 	top: -41px;
 	background-size: 305px;
@@ -972,7 +973,7 @@ h3 {
 }
 
 .top_mv_bottom_line .line_inner {
-	background-image: url('../../special/img/spring/top_mv_bottom_line.png');
+	background-image: url('/special/img/spring/top_mv_bottom_line.png');
 	background-repeat: repeat;
 	background-size: auto 100%;
 	height: 100%;
@@ -1010,7 +1011,7 @@ h3 {
 }
 
 /* ---------------------------
- point
+　point
 --------------------------- */
 .point {
 	position: relative;
@@ -1245,7 +1246,7 @@ h3 {
 }
 
 /* ---------------------------
- cta
+　cta
 --------------------------- */
 .cta {
 	position: relative;
@@ -1256,7 +1257,7 @@ h3 {
 	left: 0px;
 	width: 100%;
 	height: 314px;
-	background: url('../../special/img/spring/cta_img.png') center center / contain no-repeat;
+	background: url('/special/img/spring/cta_img.png') center center / contain no-repeat;
 }
 .cta .content {
 	position: relative;
@@ -1320,7 +1321,7 @@ h3 {
 
 	.cta-img {
 		height: 58vw;
-		background: url('../../special/img/spring/cta_img--sp.png') center top / cover no-repeat;
+		background: url('/special/img/spring/cta_img--sp.png') center top / cover no-repeat;
 	}
 
 	.cta .btn-wrap {
@@ -1340,7 +1341,7 @@ h3 {
 }
 
 /* ---------------------------
-　 joboffer
+　joboffer
 --------------------------- */
 .joboffer {
 	padding: 140px 0px 100px;
@@ -1447,11 +1448,11 @@ h3 {
 }
 
 .card02-type::before {
-	background: url('../../special/img/spring/card02-type.svg') 0% 0% / 22px 22px no-repeat;
+	background: url('/special/img/spring/card02-type.svg') 0% 0% / 22px 22px no-repeat;
 }
 
 .card02-job::before {
-	background: url('../../special/img/spring/card02-job.svg') 0% 0% / 22px 22px no-repeat;
+	background: url('/special/img/spring/card02-job.svg') 0% 0% / 22px 22px no-repeat;
 }
 
 .card02-salary {
@@ -1592,7 +1593,7 @@ h3 {
 }
 
 /* ---------------------------
-　 merit
+　merit
 --------------------------- */
 .merit {
 	padding: 140px 0 5px;
@@ -1650,7 +1651,7 @@ h3 {
 @media only screen and (max-width: 959px) {
 	.mv:after {
 		height: 15px;
-		background-image: url('../../special/img/spring/mv--sp.png');
+		background-image: url('/special/img/spring/mv--sp.png');
 		background-repeat: no-repeat;
 		background-position: left top;
 	}
@@ -1813,7 +1814,7 @@ h3 {
 }
 
 /* ---------------------------
-　 uservoice
+　uservoice
 --------------------------- */
 .uservoice {
 	padding: 140px 0px 100px;
@@ -1951,15 +1952,15 @@ h3 {
 	font-weight: 600;
 }
 .icon-rated-yellow {
-	background-image: url('../../special/img/spring/rated-yellow.svg');
+	background-image: url('/special/img/spring/rated-yellow.svg');
 }
 
 .icon-unrated-yellow {
-	background-image: url('../../special/img/spring/unrated-yellow.svg');
+	background-image: url('/special/img/spring/unrated-yellow.svg');
 }
 
 .icon-half-rated-yellow {
-	background-image: url('../../special/img/spring/half-rated-yellow.svg');
+	background-image: url('/special/img/spring/half-rated-yellow.svg');
 }
 
 @media only screen and (max-width: 767px) {
@@ -1995,7 +1996,7 @@ h3 {
 }
 
 /* ---------------------------
-　 flow
+　flow
 --------------------------- */
 .flow {
 	position: relative;
@@ -2010,7 +2011,7 @@ h3 {
 .flow::before {
 	position: absolute;
 	content: '';
-	background-image: url('../../special/img/spring/flow__bg.png');
+	background-image: url('/special/img/spring/flow__bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -2232,10 +2233,7 @@ h3 {
 	padding: 15px 15px 10px;
 	border-radius: 5px;
 	background-color: rgb(255, 255, 255);
-}
-
-.box > :not(:first-child) {
-	margin-left: 15px;
+	justify-content: space-around;
 }
 
 .box-head {
@@ -2257,10 +2255,6 @@ h3 {
 	display: inline-block;
 	margin-top: 5px;
 	color: var(--blue);
-}
-
-.box-tel {
-	width: 30%;
 }
 
 .box-tel a {
@@ -2393,7 +2387,7 @@ h3 {
 }
 
 /* ---------------------------
- footer
+　footer
 --------------------------- */
 .footer {
 	padding: 18px 0 10px;
@@ -2468,7 +2462,7 @@ h3 {
 	height: 11px;
 	margin-right: 4px;
 	content: '';
-	background: url('../../special/img/beauty/new_window.png') no-repeat center;
+	background: url('/special/img/beauty/new_window.png') no-repeat center;
 	background-size: 11px 11px;
 }
 

@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="コメディカル,マイナビ,理学療法士,作業療法士,言語聴覚士,診療放射線技師,臨床工学技士,臨床検査技師,求人,転職,医療,介護,仕事,募集" />
+  <meta name="description" content="春入職の求人は、セラピスト求人の中でもとくに人気が高く、求人数も多いのが特徴です。ぜひ今から準備をして、理想の職場を見つけましょう！" />
+  <title>【言語聴覚士】春入職の求人特集｜言語聴覚士（ST）の求人・転職ならマイナビコメディカル</title>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/common/img/favicon.ico" sizes="16x16" />
+  <?php
+  if (
+    ((strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone') !== false) //iphoneか、
+      || ((strpos($_SERVER['HTTP_USER_AGENT'], 'Android') !== false) && (strpos($_SERVER['HTTP_USER_AGENT'], 'Mobile') !== false)) //またはAndroidMobile端末、
+      || (strpos($_SERVER['HTTP_USER_AGENT'], 'Windows Phone') !== false) //またはWindowsPhone、
+      || (strpos($_SERVER['HTTP_USER_AGENT'], 'BlackBerry') !== false)) //またはBlackBerryの場合
+    //判別条件end
+  ) {
+    echo '<meta name=" viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes" >';
+  } else {
+    echo '<meta name="viewport" content="width=1180" >';
+  }
+  ?>
+
+  <link rel="stylesheet" href="/special/css/spring.css" type="text/css">
+  <link rel="stylesheet" href="/special/css/swiper.min.css" />
+  <?php include($_SERVER['DOCUMENT_ROST'] . "/common/include/iryokaigo_head_universal_tag.inc"); ?>
+</head>
+
+
+<body>
+  <?php include($_SERVER['DOCUMENT_ROST'] . "/common/include/iryokaigo_bodytop_universal_tag.inc"); ?>
+  <a name="pageTop" id="pageTop"></a>
+
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="headlogo">
+        <img src="/special/img/common/logo.png" alt="マイナビコメディカル" />
+      </h1>
+      <div class="btn-wrap">
+        <a class="btn-entry" href="/entry/?recruitno=9134996&Linkid=mv_springST_CV">
+          <span>完全無料 | 求人を紹介してもらう</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="body">
+
+    <div class="mv">
+      <div class="mvKeyVisual paper">
+
+        <div class="luxy-el mv__bg js-mv__bg">
+        </div>
+
+        <div id="luxy">
+          <div class="luxy-el mv__sakura js-mv__sakura" data-speed-y="0" data-offset="-50" data-range="2"
+            data-duration="10" style="transform: translate(0px, -130px);">
+            <picture>
+              <source media="(max-width:959px)" srcset="/special/img/spring/mv__sakura--sp.png">
+              <img src="/special/img/spring/mv__sakura--pc.png" alt="桜">
+            </picture>
+          </div>
+
+          <div class="luxy-el mv__pic js-mv__pic" data-speed-y="0" data-offset="-50">
+            <picture>
+              <source media="(max-width:959px)" srcset="/special/img/spring/mv__pic--sp.png">
+              <img data-range="8" src="/special/img/spring/mv__pic.png" alt="春に入職する">
+            </picture>
+          </div>
+        </div>
+
+        <h2 class="mv-ttl">
+          <img src="/special/img/spring/mv-ttl-st.svg" alt="言語聴覚士の春入職特集">
+        </h2>
+
+        <div class="luxy-el mv__people js-mv__people">
+          <img data-range="1" src="/special/img/spring/mv__people.png" alt="言語聴覚士の男女">
+        </div>
+
+        <div class="btn-wrap sp">
+          <a class="btn-entry" href="/entry/?recruitno=9134996&Linkid=mv_springST_CV">
+            <span>完全無料 | 求人を紹介してもらう</span></a>
+        </div>
+      </div>
+      <div class="mv__mask js-product_lp__mask is-hidden"></div>
+    </div>
+
+
+    <div class="contents">
+      <section class="about">
+        <div class="content">
+          <h3 class="heading">
+            <p class="heading-text">新しい環境で<br>スタートする春</p>
+          </h3>
+          <p class="lead">
+            春シーズン入職の求人は、言語聴覚士求人の中でも<br class="pc">
+            とくに人気が高く、求人数も多いのが特徴です。<br class="pc">
+            心機一転、新しい環境で働き始めるにはぴったりな季節。<br class="pc">
+            ぜひ今から準備をして、理想の職場を見つけましょう！
+          </p>
+        </div>
+        <div class="top_mv_bottom_line">
+          <div class="line_inner"></div>
+        </div>
+      </section>
+
+
+      <section class="point">
+        <h3 class="heading">
+          春入職おすすめポイントはこれ！
+        </h3>
+        <div class="content">
+          <div class="card-unit card-unit-col03">
+
+            <div class="card">
+              <div class="card-head card-ttl active sp">
+                <span>01</span> 採用強化で求人数が多い
+              </div>
+              <div class="card-body active">
+                <span class="card-no sp">01</span>
+                <img class="card-illu" src="/special/img/spring/card_heading01_pc.png" alt="01">
+                <p class="card-ttl pc">
+                  採用強化で求人数が多い
+                </p>
+                <p class="card-txt">
+                  言語聴覚士の求人数は夏頃から増え始め、9月から翌年2月が一番多くなります。<span>年度の変わる4月に合わせて募集が増える</span>ためです。求人数が多い分、希望の職場を探しやすくなります。
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head card-ttl sp">
+                <span>02</span> 研修が充実している
+              </div>
+              <div class="card-body">
+                <span class="card-no sp">02</span>
+                <img class="card-illu" src="/special/img/spring/card_heading02_pc.png" alt="02">
+                <p class="card-ttl pc">
+                  研修が充実している
+                </p>
+                <p class="card-txt">
+                  年度が変わる月はもちろんですが、年明けから一足先に入職する中途社員も増え始めます。<br>
+                  新しいメンバーが増える時期ということで、
+                  <span>春頃は職場側で研修制度をしっかり用意していることも多く、安心して入職できる時期</span>といえます。
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-head card-ttl sp">
+                <span>03</span> 職場になじみやすい
+              </div>
+              <div class="card-body">
+                <span class="card-no sp">03</span>
+                <img class="card-illu" src="/special/img/spring/card_heading03_pc.png" alt="03">
+                <p class="card-ttl pc">
+                  職場になじみやすい
+                </p>
+                <p class="card-txt">
+                  人の移動が多い時期は、<span>同じように入職してくる仲間が多い時期</span>とも言えます。<br>
+                  人が変われば職場の雰囲気も変わるため、新しくきた社員にとってはなじみやすい環境です。
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <div class="cta paper">
+        <div class="content">
+          <div class="cta-img"></div>
+          <div class="btn-wrap">
+            <p class="lead">
+              春入職可能な言語聴覚士求人は<br>
+              マイナビコメディカルの<br>
+              専任アドバイザーへご相談ください！
+            </p>
+            <div class="pc">
+              <a class="btn-entry btn-entry--blank" href="/entry/?recruitno=9134996&Linkid=cta_springST_CV"
+                target="_blank">
+                <span>求人の紹介はこちらから</span>
+              </a>
+            </div>
+            <div class="sp">
+              <a class="btn-entry btn-entry--blank" href="/entry/?recruitno=9134996&Linkid=cta_springST_CV"
+                target="_blank">
+                <span>完全無料 | 求人を紹介してもらう</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- マイナビコメディカルではこんな求人をご紹介 -->
+      <section class="joboffer">
+        <h3 class="heading">
+          マイナビコメディカルでは<br class="sp">こんな求人をご紹介
+        </h3>
+        <div class="content">
+
+          <div class="joboffer-slider">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="card02">
+                    <div class="card02-head">
+                      <div class="card02-img">
+                        <img src="/special/img/spring/offer_img_st01.jpg" alt="求人01">
+                      </div>
+                      <p class="card02-ttl">
+                        資格取得奨励金で<br>
+                        モチベもスキルもアップ◎
+                      </p>
+                    </div>
+                    <div class="card02-body">
+                      <div class="label-wrap">
+                        <span class="card02-job">言語聴覚士</span>
+                        <span class="card02-type">正職員</span>
+                      </div>
+                      <p class="card02-salary">
+                        <span>年収 : </span>
+                        420～560<small>万円</small>
+                      </p>
+                      <p class="card02-txt">
+                        完全週休2日制で、資格手当や時間外手当など各種手当も充実！
+                      </p>
+                    </div>
+                    <div class="btn-wrap">
+                      <a href="/entry/?recruitno=9134996&Linkid=job01_springST_CV" class="btn-job-entry">
+                        紹介してもらう
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card02">
+                    <div class="card02-head">
+                      <div class="card02-img">
+                        <img src="/special/img/spring/offer_img_st02.png" alt="求人02">
+                      </div>
+                      <p class="card02-ttl">
+                        年間休日129日！<br>
+                        有給消化率90％以上の実績
+                      </p>
+                    </div>
+                    <div class="card02-body">
+                      <div class="label-wrap">
+                        <span class="card02-job">言語聴覚士</span>
+                        <span class="card02-type">正職員</span>
+                      </div>
+                      <p class="card02-salary">
+                        <span>年収 : </span>
+                        430<small>万円</small>～
+                      </p>
+                      <p class="card02-txt">
+                        年休に加えて最大有給は20日！働きやすい職場です
+                      </p>
+                    </div>
+                    <div class="btn-wrap">
+                      <a href="/entry/?recruitno=9134996&Linkid=job02_springST_CV" class="btn-job-entry">
+                        紹介してもらう
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card02">
+                    <div class="card02-head">
+                      <div class="card02-img">
+                        <img src="/special/img/spring/offer_img_st03.png" alt="求人03">
+                      </div>
+                      <p class="card02-ttl">
+                        インセンティブあり！<br>
+                        年収500万円以上も◎
+                      </p>
+                    </div>
+                    <div class="card02-body">
+                      <div class="label-wrap">
+                        <span class="card02-job">言語聴覚士</span>
+                        <span class="card02-type">正職員</span>
+                      </div>
+                      <p class="card02-salary">
+                        <span>年収 : </span>
+                        400~550<small>万円</small>
+                      </p>
+                      <p class="card02-txt">
+                        完全週休2日制に加え、休暇もしっかりとれる職場です！
+                      </p>
+                    </div>
+                    <div class="btn-wrap">
+                      <a href="/entry/?recruitno=9134996&Linkid=job03_springST_CV" class="btn-job-entry">
+                        紹介してもらう
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card02">
+                    <div class="card02-head">
+                      <div class="card02-img">
+                        <img src="/special/img/spring/offer_img_st04.png" alt="求人04">
+                      </div>
+                      <p class="card02-ttl">
+                        仕事とプライベートを<br>
+                        両立しやすい◎車通勤OK
+                      </p>
+                    </div>
+
+                    <div class="card02-body">
+                      <div class="label-wrap">
+                        <span class="card02-job">言語聴覚士</span>
+                        <span class="card02-type">正職員</span>
+                      </div>
+                      <p class="card02-salary">
+                        <span>年収 : </span>
+                        420<small>万円</small>～
+                      </p>
+                      <p class="card02-txt">
+                        時短正社員や、非常勤等働き方が相談できて安心です！
+                      </p>
+                    </div>
+                    <div class="btn-wrap">
+                      <a href="/entry/?recruitno=9134996&Linkid=job04_springST_CV" class="btn-job-entry">
+                        紹介してもらう
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card02">
+                    <div class="card02-head">
+                      <div class="card02-img">
+                        <img src="/special/img/spring/offer_img_st05.png" alt="求人05">
+                      </div>
+                      <p class="card02-ttl">
+                        月給30万円で別途賞与あり！<br>
+                        年収重視の方に◎
+                      </p>
+                    </div>
+                    <div class="card02-body">
+                      <div class="label-wrap">
+                        <span class="card02-job">言語聴覚士</span>
+                        <span class="card02-type">正職員</span>
+                      </div>
+                      <p class="card02-salary">
+                        <span>年収 : </span>
+                        400~660<small>万円 程度</small>
+                      </p>
+                      <p class="card02-txt">
+                        福利厚生も充実しており、土日祝は固定でお休みです！
+                      </p>
+                    </div>
+                    <div class="btn-wrap">
+                      <a href="/entry/?recruitno=9134996&Linkid=job05_springST_CV" class="btn-job-entry">
+                        紹介してもらう
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card02">
+                    <div class="card02-head">
+                      <div class="card02-img">
+                        <img src="/special/img/spring/offer_img_st06.png" alt="求人06">
+                      </div>
+                      <p class="card02-ttl">
+                        駅から徒歩3分で通勤便利◎<br>
+                        年間休日120日以上！
+                      </p>
+                    </div>
+                    <div class="card02-body">
+                      <div class="label-wrap">
+                        <span class="card02-job">言語聴覚士</span>
+                        <span class="card02-type">正職員</span>
+                      </div>
+                      <p class="card02-salary">
+                        <span>年収 : </span>
+                        420~550<small>万円</small>
+                      </p>
+                      <p class="card02-txt">
+                        便利な立地で人気な求人♪年間休日120日超え！
+                      </p>
+                    </div>
+                    <div class="btn-wrap">
+                      <a href="/entry/?recruitno=9134996&Linkid=job06_springST_CV" class="btn-job-entry">
+                        紹介してもらう
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- マイナビコメディカルの強み -->
+      <section class="merit">
+        <div class="content">
+          <h3 class="heading">
+            マイナビコメディカルの強み
+          </h3>
+          <main>
+            <section id="merit01" class="m-section">
+              <div class="m-section__inner animated-items">
+                <div class="m-section__illust">
+                  <div class="m-section__illust-bg">
+                    <h3 class="m-section-title js__tsc-title type-anime">
+                      <span class="jp">ご希望の求人をご紹介</span>
+                      <span class="en opacity">A LSTS OF<br>JOBS</span>
+                    </h3>
+                    <img class="m-section__illust-interior" src="/special/img/spring/merit01__illust.png"
+                      alt="求人を紹介する女性イラスト">
+                  </div>
+                </div>
+                <div class="m-section__content">
+                  <span class="merit-no">Merit01</span>
+                  <p class="title">求人が豊富だから、<br>
+                    希望が叶いやすい。</p>
+                  <p class="merit-txt">マイナビコメディカルでは約35,000件の求人を保有。<br>
+                    また、非公開求人と呼ばれる、急募、好条件案件を含めると
+                    更に多数の求人を取り揃えています。<br>
+                    「この転職で何を叶えたいか？」「年収、スキルアップ、
+                    人間関係…」など、条件をしっかりお伺いした上で、
+                    ご希望の求人をご紹介致します。</p>
+                </div>
+              </div>
+            </section>
+
+            <section id="merit02" class="m-section">
+              <div class="m-section__inner animated-items">
+                <div class="m-section__illust">
+                  <div class="m-section__illust-bg">
+                    <h3 class="m-section-title js__tsc-title type-anime">
+                      <span class="jp">知りえないポイントをお伝え</span>
+                      <span class="en opacity">PROVIDE<br>INFORMATION</span>
+                    </h3>
+                    <img class="m-section__illust-interior" src="/special/img/spring/merit02__illust.png">
+                  </div>
+                </div>
+                <div class="m-section__content">
+                  <span class="merit-no">Merit02</span>
+                  <p class="title">知りたいことを確認できる<br>
+                    仕組みがあります。</p>
+                  <p class="merit-txt">
+                    「人員構成は？」「職場の雰囲気は？」「リハ長はどんな方？」<br>
+                    マイナビコメディカルは全国20ヶ所にオフィスを展開。実際に現地に足を運び、採用担当者だけではなく、施設長や現場の言語聴覚士さんにもお話を伺っています。<br>
+                    賞与の実績や残業の実際、有給取得率、産休復帰率などはもちろん、職場の雰囲気や社風など、インターネットで求人を見るだけでは知りえないポイントをお伝えします。</p>
+                </div>
+              </div>
+            </section>
+
+            <section id="merit03" class="m-section">
+              <div class="m-section__inner animated-items">
+                <div class="m-section__illust">
+                  <div class="m-section__illust-bg">
+                    <h3 class="m-section-title js__tsc-title type-anime">
+                      <span class="jp">あなたに代わって交渉</span>
+                      <span class="en opacity">NEGORIATE<br>ON YOUR BEHALF</span>
+                    </h3>
+                    <img class="m-section__illust-interior" src="/special/img/spring/merit03__illust.png">
+                  </div>
+                </div>
+                <div class="m-section__content">
+                  <span class="merit-no">Merit03</span>
+                  <p class="title">日程の調整や、<br>
+                    条件・給与の交渉もすべてお任せ。</p>
+                  <p class="merit-txt">
+                    職場見学や面接の日程調整はもちろん、言い出しにくいお給料や配属先、勤務開始日なども、マイナビコメディカルのキャリアアドバイザーが、あなたに代わって交渉します。</p>
+                </div>
+              </div>
+            </section>
+
+          </main>
+        </div>
+      </section>
+
+
+      <!-- マイナビコメディカルを利用された方の声 -->
+      <section class="uservoice">
+        <h3 class="heading">
+          マイナビコメディカルを<br class="sp">
+          利用された方の声
+        </h3>
+        <div class="content content-w1040">
+          <div class="uservoice-slider">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card04">
+                    <div class="card04-head">
+                      <div class="card04-img">
+                        <img src="/special/img/spring/card04_img04.png" alt="利用された方の声女性イラスト">
+                      </div>
+                      <div class="card04-wrap">
+                        <div class="card04-ttl">はじめての<br>転職もスムーズに</div>
+                        <span class="card04-tag">30代 / 女性</span>
+                      </div>
+                    </div>
+                    <div class="card04-body">
+                      <div class="star">
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-unrated-yellow"></em>
+                        <div class="star-point">4.3</div>
+                      </div>
+                      <p class="card04-txt">
+                        はじめての転職で何もわからない状態でとても不安でしたが、次の職場に求めることなど<span>詳しく分析した上で求人を紹介してくださり</span>大変感謝しております。担当のキャリアアドバイザーの方には大変お世話になりました。ありがとうございました。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card04">
+                    <div class="card04-head">
+                      <div class="card04-img">
+                        <img src="/special/img/spring/card04_img01.png" alt="利用された方の声男性イラスト">
+                      </div>
+                      <div class="card04-wrap">
+                        <div class="card04-ttl">とにかく<br>詳しい！</div>
+                        <span class="card04-tag">20代 / 男性</span>
+                      </div>
+                    </div>
+                    <div class="card04-body">
+                      <div class="star">
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-unrated-yellow"></em>
+                        <div class="star-point">4.2</div>
+                      </div>
+                      <p class="card04-txt">
+                        一人で就職先を探すには情報が少なかったのですが、<span>かなり要望に近い求人の紹介</span>で満足しています。<span>対応も早く、かつ丁寧</span>でした。苦しい時も一緒に伴走してくれて心強かったです。本当にありがとうございました。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card04">
+                    <div class="card04-head">
+                      <div class="card04-img">
+                        <img src="/special/img/spring/card04_img05.png" alt="利用された方の声女性イラスト">
+                      </div>
+                      <div class="card04-wrap">
+                        <div class="card04-ttl">ブランクが<br>あっても安心</div>
+                        <span class="card04-tag">30代 / 女性</span>
+                      </div>
+                    </div>
+                    <div class="card04-body">
+                      <div class="star">
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-half-rated-yellow"></em>
+                        <div class="star-point">4.5</div>
+                      </div>
+                      <p class="card04-txt">
+                        経験が浅い上に、体調を崩した上での退職でさらにブランクまであったため、再就職は難しいと思っていました。しかし担当の方が<span>親身に相談に乗って下さり、私に本当に向いている職場は何かということまで考えて下さいました</span>。<span>面接前には書類の添削</span>もして頂け、とても心強かったです。<br>
+                        頂いたアドバイスを胸に、頑張りたいと思います。本当にありがとうございました。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card04">
+                    <div class="card04-head">
+                      <div class="card04-img">
+                        <img src="/special/img/spring/card04_img03.png" alt="利用された方の声男性イラスト">
+                      </div>
+                      <div class="card04-wrap">
+                        <div class="card04-ttl">働き<br>ながらでも…</div>
+                        <span class="card04-tag">20代 / 男性</span>
+                      </div>
+                    </div>
+                    <div class="card04-body">
+                      <div class="star">
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-half-rated-yellow"></em>
+                        <div class="star-point">4.5</div>
+                      </div>
+                      <p class="card04-txt">
+                        在職中だと、勤務時間中に電話連絡などしにくかったので、<span>LINEを使いながら対応して頂けて</span>助かりました。自分では、面接の調整なども多忙な中では行えなかったと思います。<span>こまめにこちらの希望を聞いて伝えて下さり</span>、助かりました。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card04">
+                    <div class="card04-head">
+                      <div class="card04-img">
+                        <img src="/special/img/spring/card04_img06.png" alt="利用された方の声女性イラスト">
+                      </div>
+                      <div class="card04-wrap">
+                        <div class="card04-ttl">面接対策や<br>応募書類の添削も！</div>
+                        <span class="card04-tag">20代 / 女性</span>
+                      </div>
+                    </div>
+                    <div class="card04-body">
+                      <div class="star">
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-rated-yellow"></em>
+                        <em class="star-icon icon-half-rated-yellow"></em>
+                        <div class="star-point">4.6</div>
+                      </div>
+                      <p class="card04-txt">
+                        初めての転職でわからないことだらけでしたが、<span>面接対策や応募書類の添削など丁寧に行っていただき</span>、無事に内定をいただくことができました。<span>また面接にも同行していただき</span>、リラックスした状態で見学や面接ができて良かったです。ありがとうございました。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ご利用から入職までの流れ -->
+      <section class="flow paper">
+        <div class="content">
+          <h3 class="heading">
+            ご利用から入職までの流れ
+          </h3>
+          <div class="o-scroll">
+            <ul class="steplist o-scroll__container">
+              <li>
+                <div class="steplist-item steplist-item-01">
+                  <div class="steplist-item-inner">
+                    <span class="steplist-item-label">STEP 1</span>
+                    <div class="steplist-item-head">
+                      <p class="steplist-item-ttl">
+                        簡単登録する
+                      </p>
+                    </div>
+                    <div class="steplist-item-cont">
+                      <div class="steplist-item-img">
+                        <img src="/special/img/spring/steplist_img01.png" alt="簡単登録イラスト">
+                      </div>
+                      <div class="steplist-item-body">
+                        <div class="steplist-item-txt">
+                          <p>
+                            ご登録は簡単！わずか<span class="blue">1分</span>で完了。<br>
+                            面倒な職歴や経歴の入力は不要です。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="steplist-item steplist-item-02">
+                  <div class="steplist-item-inner">
+                    <span class="steplist-item-label">STEP 2</span>
+                    <div class="steplist-item-head">
+                      <p class="steplist-item-ttl">
+                        アドバイザーと<br class="pc">転職相談
+                      </p>
+                    </div>
+                    <div class="steplist-item-cont">
+                      <div class="steplist-item-img">
+                        <img src="/special/img/spring/steplist_img02.png" alt="転職相談イラスト">
+                      </div>
+                      <div class="steplist-item-body">
+                        <div class="steplist-item-txt">
+                          <p>
+                            <span class="blue">悩まれていること・希望の職場環境</span>に<br class="sp"> ついてアドバイザーにご相談ください。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="steplist-item steplist-item-03">
+                  <div class="steplist-item-inner">
+                    <span class="steplist-item-label">STEP 3</span>
+                    <div class="steplist-item-head">
+                      <p class="steplist-item-ttl">
+                        ご希望を元に求人をご紹介
+                      </p>
+                    </div>
+                    <div class="steplist-item-cont">
+                      <div class="steplist-item-img">
+                        <img src="/special/img/spring/steplist_img03.png" alt="求人を紹介するイラスト">
+                      </div>
+                      <div class="steplist-item-body">
+                        <div class="steplist-item-txt">
+                          <p>
+                            <span class="blue">ご希望の内容</span>を元に、<br>
+                            <span class="blue">ピックアップした求人をご紹介。</span><br class="pc">
+                            <span class="small">求人票に記載されていない職場の人数構成、年齢構成。雰囲気などまで詳しく<br class="sp">ご説明します。</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="steplist-item steplist-item-04">
+                  <div class="steplist-item-inner">
+                    <span class="steplist-item-label">STEP 4</span>
+                    <div class="steplist-item-head">
+                      <p class="steplist-item-ttl">
+                        履歴書添削・面接対策
+                      </p>
+                    </div>
+                    <div class="steplist-item-cont">
+                      <div class="steplist-item-img">
+                        <img src="/special/img/spring/steplist_img04.png" alt="履歴書添削・面接対策イラスト">
+                      </div>
+                      <div class="steplist-item-body">
+                        <div class="steplist-item-txt">
+                          <p>
+                            転職の意思が固まった方には、<br>
+                            <span class="blue">履歴書の添削・面接対策。</span><br class="pc">
+                            <span class="small">人事担当者の人柄や想定される質問まで<br class="sp">お教えしますので、安心して<br
+                                class="sp">面接に向かえますよ。</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="steplist-item steplist-item-05">
+                  <div class="steplist-item-inner">
+                    <span class="steplist-item-label">STEP 5</span>
+                    <div class="steplist-item-head">
+                      <p class="steplist-item-ttl">
+                        面接
+                      </p>
+                    </div>
+                    <div class="steplist-item-cont">
+                      <div class="steplist-item-img">
+                        <img src="/special/img/spring/steplist_img05.png" alt="面接イラスト">
+                      </div>
+                      <div class="steplist-item-body">
+                        <div class="steplist-item-txt">
+                          <p>
+                            可能な限りアドバイザーが同席して、<br>
+                            <span class="blue">あなたの面接をバックアップ！</span><br class="pc">
+                            <span class="small">給与や待遇など聞きづらいことも、<br class="sp">交渉OKです！</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="steplist-item steplist-item-06">
+                  <div class="steplist-item-inner">
+                    <span class="steplist-item-label">STEP 6</span>
+                    <div class="steplist-item-head">
+                      <p class="steplist-item-ttl">
+                        内定・入社・<br class="pc">アフターフォロー
+                      </p>
+                    </div>
+                    <div class="steplist-item-cont">
+                      <div class="steplist-item-img">
+                        <img src="/special/img/spring/steplist_img06.png" alt="アドバイザーのイラスト">
+                      </div>
+                      <div class="steplist-item-body">
+                        <div class="steplist-item-txt">
+                          <p>
+                            退職までのスケジュールや、<br>
+                            入社までの必要な準備まで、<br>
+                            <span class="blue">アドバイザーが丁寧にサポート!</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <div class="otherinfo bg-blue">
+        <div class="content">
+          <div class="box">
+            <div class="box-head">
+              <p>お電話でのご登録はこちら</p>
+              <span>全国共通フリーダイヤル（通話無料）</span>
+            </div>
+            <div class="box-tel">
+              <a href="tel:0120941651">0120-941-651</a>
+            </div>
+            <p class="box-txt">携帯・PHSからもご利用になれます。</p>
+          </div>
+
+          <ul class="media-list">
+            <li>
+              <div class="media">
+                <div class="media-img">
+                  <img src="/special/img/common/img_0yen.png" alt="">
+                </div>
+                <div class="media-body">
+                  <p class="media-ttl">
+                    厚生労働大臣認可のサービス｜費用は一切かかりません
+                  </p>
+                  <p class="media-txt">
+                    「マイナビコメディカル」は厚生労働大臣認可の転職（就職）支援サービス。完全無料でご利用いただけます。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="media">
+                <div class="media-img">
+                  <img src="/special/img/common/img_privacy.png" alt="">
+                </div>
+                <div class="media-body">
+                  <p class="media-ttl">
+                    大切な個人情報をお守りします｜プライバシーマーク取得企業です
+                  </p>
+                  <p class="media-txt">
+                    人情報の取り扱いについての厳密な管理基準を満たした事業者のみに付与されるプライバシーマークを取得済みです。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="media">
+                <div class="media-img">
+                  <img src="/special/img/common/img_yuryozigyosya.png" alt="">
+                </div>
+                <div class="media-body">
+                  <p class="media-ttl">
+                    「職業紹介優良事業者」認定を取得しています。
+                  </p>
+                  <p class="media-txt">
+                    「経営の安定性」など78項目の厳しい審査基準をクリアした「職業紹介優良事業者」事業者認定を取得しています。
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="page-top">
+      <a href="#pageTop" id="page-top">ページトップへ戻る</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="content">
+      <script type="text/javascript">
+        var aone_segs = "";
+        var convertFormat = function (segs) {
+          aone_segs = "|" + segs.join('|') + "|";
+        }
+      </script>
+      <script type="text/javascript"
+        src="//a.one.impact-ad.jp/dd?oid=mone.fd8f4892e35&amp;rft=j&amp;jsonp=convertFormat"></script>
+
+      <div class="footer-inner">
+        <div class="footer-top">
+          <ul class="infolist">
+            <li>フリーダイヤル：0120-941-651</li>
+            <li>運営会社：株式会社マイナビ 紹介事業本部</li>
+            <li>事業内容：転職支援サービス「マイナビ薬剤師」「マイナビDOCTOR」「マイナビ看護師」「マイナビ介護職」「マイナビコメディカル」「マイナビ保育士」等の運営。</li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <ul class="linklist">
+            <li>
+              <a href="https://www.mynavi.jp/company/" target="_blank">会社概要</a>
+            </li>
+            <li>
+              <a href="/privacy/" target="_blank">個人情報の取り扱い</a>
+            </li>
+          </ul>
+          <p class="footer-copy">Copyright (c) Mynavi Corporation</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="floating">
+    <div class="btn-wrap">
+      <a href="/entry/?recruitno=9134996&Linkid=footer_springST_CV" class="btn-entry">
+        <span>完全無料 | 求人を紹介してもらう</span>
+      </a>
+    </div>
+  </div>
+</body>
+
+<script type="text/javascript" src="/special/js/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/special/js/swiper.min.js"></script>
+<script type="text/javascript" src="/special/js/scrollreveal.min.js"></script>
+<script src="/special/js/luxy.js" charset="utf-8"></script>
+<script type="text/javascript" src="/special/js/spring.js"></script>
+
+<?php include($_SERVER['DOCUMENT_ROST'] . "/common/include/iryokaigo_bodybottom_universal_tag.inc"); ?>
+
+</html>
