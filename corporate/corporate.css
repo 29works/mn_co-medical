@@ -1,13 +1,41 @@
 @charset "utf-8";
+:root {
+	--primary: #05b3ff;
+}
 * {
 	margin: 0;
 	padding: 0;
+}
+html,
+body {
+	height: 100%;
 }
 .pc {
 	display: block;
 }
 .sp {
 	display: none;
+}
+.scrollIn {
+	opacity: 0;
+}
+.fadeInUp {
+	animation: fadeInUp 0.5s ease forwards;
+}
+.inner {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 50px, 0);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
 }
 @media only screen and (max-width: 639px) {
 	.pc {
@@ -22,9 +50,154 @@
 	}
 }
 
-#app_head_box {
-	padding: 10px 0 0 0;
+#corporate {
+	font-size: 14px;
+	font-feature-settings: 'palt';
+	letter-spacing: 0;
+	line-height: 2;
 }
+.txtBold {
+	font-weight: bold;
+}
+.txtS {
+	font-size: 85%;
+}
+.txtGreen {
+	color: #47c681;
+}
+.marker {
+	background: linear-gradient(#fff0 50%, #fff0 60%, #fcf0ae 60%);
+}
+
+#main {
+	width: 100%;
+	background-image: none;
+}
+#breadcrumb_list {
+	width: 1000px;
+	margin: 10px auto 0;
+}
+
+/* #mainvisual */
+#mainvisual {
+	position: relative;
+	background: bottom center / cover no-repeat url('img/bg_mainvisual.png');
+}
+#mainvisual .inner {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 45px;
+	width: 1000px;
+	height: 240px;
+	box-sizing: border-box;
+	background: bottom right 100px / contain no-repeat url(img/mainvisual.png);
+	z-index: 1;
+}
+#mainvisual h2 {
+	margin-bottom: 0.4em;
+	width: fit-content;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+	color: var(--primary);
+}
+#mainvisual h2 .txtM {
+	font-size: 60%;
+}
+#mainvisual h2 .txtS {
+	font-size: 50%;
+}
+
+/* lead */
+#lead {
+	color: white;
+	background-color: var(--primary);
+}
+#lead .inner {
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+}
+#lead .column {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 40%;
+	justify-content: flex-start;
+}
+#lead .text {
+	margin-right: 6px;
+	line-height: 1.4;
+}
+#lead .text p {
+	font-size: 15px;
+	text-align: center;
+}
+#lead .text strong {
+	font-size: 40px;
+}
+#lead .price {
+	font-weight: bold;
+	font-size: 50px;
+}
+#lead .price span {
+	font-size: 100px;
+}
+#lead .desc {
+	line-height: 1.7;
+}
+#lead .desc h3 {
+	font-size: 20px;
+}
+
+#nayami {
+	background-color: #f0f4f3;
+}
+#nayami .inner .pickup {
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	bottom: 20px;
+}
+#nayami .inner .pickup div {
+	width: 147px;
+	height: 31px;
+	background-color: #ffffff91;
+	border-radius: 8px;
+	text-align: center;
+	padding: 110px 60px 60px;
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px) contrast(20%);
+}
+#nayami .inner .item {
+	display: flex;
+	justify-content: center;
+}
+#nayami .inner .item div {
+	position: relative;
+	margin: 10px;
+	padding: 30px;
+	width: 120px;
+	height: 120px;
+	background-color: #e8e8e8;
+	border-radius: 1000px;
+}
+#nayami .inner .item div p {
+	position: absolute;
+	margin: 0;
+	margin-right: -50%;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	line-height: 1.5;
+	transform: translate(-50%, -50%);
+}
+
+#merit {
+	background-color: #d2f0fc;
+}
+
 .app_box {
 	width: 306px;
 	height: 273px;
