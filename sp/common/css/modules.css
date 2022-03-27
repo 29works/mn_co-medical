@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* Table Of Contents
+----------------------------------------
+
+# float
+# align
+# font color
+# font size
+# clearfix
+
+----------------------------------------*/
+
+
+/* # float
+---------------------------------------------------------------------------- */
+
+.floatLeft  { float:left; }
+.floatRight { float:right; }
+
+
+/* # align
+---------------------------------------------------------------------------- */
+
+.alignLeft   { text-align: left !important; }
+.alignCenter { text-align: center !important; }
+.alignRight  { text-align: right !important; }
+
+
+
+/* # font color
+---------------------------------------------------------------------------- */
+
+/* # font size
+---------------------------------------------------------------------------- */
+
+
+/* # clearfix 
+---------------------------------------------------------------------------- */
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* # common class 
+---------------------------------------------------------------------------- */
+.mT5{ margin-top:5px;}
+.mT10{ margin-top:10px;}
+.mT15{ margin-top:15px;}
+.mT20{ margin-top:20px;}
+
+.mB5{ margin-bottom:5px;}
+.mB10{ margin-bottom:10px;}
+
+.mR15{ margin-right:15px;}
+
+.mL30{ margin-left:30px;}
+.mL80{ margin-left:80px;}

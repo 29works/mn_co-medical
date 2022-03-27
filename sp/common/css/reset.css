@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {-webkit-text-size-adjust: none;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, p, blockquote, th, td, form, fieldset, legend {margin: 0;padding: 0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display: block;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;line-height: 1.5;}
+a {text-decoration: none; color: #33ad8a;}
+img {border-style: none;vertical-align: top;}
+p{margin: 0 ;}
+ol, ul {list-style: none ;}
+form,fieldset {margin: 0;padding: 0;border-style: none;}
+input,select,label,textarea {vertical-align: baseline;margin:0;padding:0;}
+table {border-collapse: collapse;border-spacing:  0;empty-cells:show;}
+caption, th {text-align: left;}
+address, caption, cite, code, dfn, em, strong, th, var {font-style: normal;}
+

@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* レスポンシブ用CSS */
+
+#Header .sp {
+	display: none;
+}
+
+#Footer .sp_footin {
+	display: none;
+}

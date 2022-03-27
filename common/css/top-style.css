@@ -1,0 +1,222 @@
+@charset "UTF-8";
+.ik-o-contents__main .seo-search__section {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
+    "Meiryo", "メイリオ", "MS Pゴシック", sans-serif;
+  margin: 60px auto 0;
+}
+
+.tab-contents {
+  margin: 19px auto;
+  background: #e3eff5;
+  border-radius: 14px;
+}
+
+.tab-contents .ik-m-seo-content {
+  border: 0;
+  margin: 0;
+  padding: 20px 20px 0;
+}
+
+.tab-contents .ik-m-seo-content__h {
+  font-size: 16px;
+  margin-left: 5px;
+  margin-bottom: 14px;
+  color: #262626;
+}
+
+.tab-contents .ik-m-seo-content__h span {
+  color: #00aaeb;
+}
+
+.tab-contents .ik-t-region__seo-contents {
+  margin-top: 0;
+}
+
+.tab-contents .swiper-container {
+  margin: 0 auto;
+}
+
+.tab-menu::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #00aaeb;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.tab-menu .swiper-slide {
+  width: auto;
+  padding: 14px 15px 10px;
+  background: #f1f1f1;
+  border-width: 2px 2px 0 2px;
+  border-radius: 5px 5px 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: inset 0px 7px 7px #29292912;
+}
+
+.tab-menu .swiper-slide:hover {
+  cursor: pointer;
+}
+
+.tab-contents .swiper-slide-thumb-active {
+  color: #00aaeb;
+  border-bottom: 2px solid rgb(9, 8, 53);
+  font-weight: bold;
+}
+
+.tab-menu .swiper-slide.swiper-slide-thumb-active {
+  color: #00aaeb;
+  background-color: white;
+  border-bottom: 2px solid white;
+  border: solid #00aaeb;
+  border-width: 2px 2px 0 2px;
+}
+
+.tab-menu .swiper-slide::after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 6px;
+  background: #fff;
+  left: 0;
+  bottom: -16px;
+  z-index: 2;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.tab-menu .swiper-slide.swiper-slide-visible.swiper-slide-thumb-active::after {
+  opacity: 1;
+}
+/* ==================================================== */
+
+.ik-t-region__seo-contents .ik-m-text-link-list__item {
+  display: inline-block;
+  font-size: 15px;
+  border: 1px solid #ececec;
+  margin: 0 3px 14px;
+  border-radius: 8px;
+}
+
+.ik-t-region__seo-contents .ik-m-text-link-list__item a {
+  color: #0971b9;
+  display: block;
+  padding: 9px 17px;
+  background: white;
+  border-radius: 8px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.ik-t-region__seo-contents .ik-m-text-link-list__item a:hover {
+  color: #00385f;
+  background: #cad5da;
+  text-decoration: none;
+}
+
+.ik-t-region__seo-contents
+  .ik-m-text-link-list__item
+  + .ik-m-text-link-list__item:before {
+  display: none;
+}
+
+.ik-t-region__seo-contents .ik-o-search__footer {
+  border-top: 0;
+  padding: 13px 0 38px;
+}
+
+.ik-t-region__seo-contents .ik-a-btn--in-s {
+  width: 66%;
+  padding: 18px 18px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .seo-search__section {
+    margin-top: 6%;
+  }
+
+  .seo-search__section .tab-menu {
+    padding: 0 1.5%;
+  }
+
+  .tab-menu::after {
+    height: 3px;
+  }
+
+  .seo-search__section .tab-menu .swiper-slide {
+    padding: 3% 7%;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .seo-search__section .tab-contents {
+    margin: 3.5% 0;
+    background: #d4f1ff;
+    border-radius: 0;
+  }
+
+  .ik-t-region__seo-contents.tab-contents {
+    padding: 2% 0;
+    border-radius: 0;
+  }
+
+  .ik-t-region__seo-contents .ik-m-text-link-list__item {
+    margin: 0 1.5% 1.5% 0;
+    font-size: 16px;
+  }
+
+  .seo-search__section .ik-t-region__seo-contents .ik-m-text-link-list__item a {
+    padding: 4px 16px;
+  }
+
+  .tab-contents .ik-m-seo-content {
+    padding: 3% 3% 0;
+  }
+
+  .ik-t-region__seo-contents .ik-a-btn--in-s {
+    position: relative;
+    width: 90%;
+    color: white;
+    font-size: 16px;
+  }
+
+  .ik-t-region__seo-contents .ik-a-btn--in-s::after {
+    position: absolute;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "";
+    top: 50%;
+    right: 8px;
+    margin-top: -8px;
+    font-family: "ir";
+    font-size: inherit;
+    font-style: normal;
+    text-rendering: auto;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .ik-o-search__footer__btn {
+    text-align: center;
+  }
+
+  .tab-menu .swiper-slide.swiper-slide-thumb-active {
+    border-width: 3px 3px 0 3px;
+  }
+
+  .ik-t-region__seo-contents .ik-o-search__footer {
+    padding: 13px 0 2%;
+  }
+}
