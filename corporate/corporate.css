@@ -25,6 +25,11 @@ h3 {
 h4 {
 	font-size: 18px;
 }
+a:hover {
+	color: #4949498f;
+	opacity: 0.4;
+	text-decoration: none;
+}
 .pc {
 	display: block;
 }
@@ -719,7 +724,6 @@ section .table .advrt {
 		border-left: 1px solid #aaa;
 	}
 	#merit .table .advrt li li.sp {
-		background: left 38% center / 52px no-repeat url(img/pickup_02.svg) #e2f5ff;
 		filter: grayscale(1);
 	}
 	#merit .table .advrt li li.sp {
@@ -1231,11 +1235,6 @@ section .table .advrt {
 #help .help_btn {
 	color: #33c8e8;
 	background: white;
-}
-#help .help_btn:hover {
-	color: white;
-	text-decoration: none;
-	opacity: 0.6;
 }
 @media only screen and (max-width: 639px) {
 	#contact .mainttl,
