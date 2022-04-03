@@ -101,6 +101,17 @@ h4 strong {
 	padding: 18px 0;
 	border-radius: 16px;
 }
+.fade-in {
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(50px);
+	transition: opacity 2s, transform 2s;
+}
+.fade-in.show {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
 
 @media only screen and (max-width: 639px) {
 	.pc {
