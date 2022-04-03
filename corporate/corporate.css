@@ -133,10 +133,14 @@ h4 strong {
 		font-size: 32px;
 	}
 	h2 {
-		font-size: 2.3em;
+		font-size: 2.2em;
+		line-height: 1.3;
 	}
 	h3 {
 		font-size: 1.5em;
+	}
+	h4 {
+		font-size: 17px;
 	}
 	@keyframes fadeInUp {
 		from {
@@ -283,6 +287,7 @@ h4 strong {
 	font-size: 14px;
 	letter-spacing: 1.5px;
 }
+
 @media only screen and (max-width: 639px) {
 	#lead .inner {
 		width: 92%;
@@ -799,7 +804,70 @@ section .table .advrt {
 	right: -18px;
 }
 @media only screen and (max-width: 639px) {
+	#flow .inner {
+		padding-bottom: 30px;
+	}
 	#flow .secondttl {
+		padding: 0;
+	}
+	#flow .contect-item {
+		flex-direction: column;
+	}
+	#flow .secondttl .tag {
+		padding: 4px 10px;
+		font-size: 14px;
+	}
+	#flow .contect-item::after {
+		border-left: none;
+		border-bottom: 2px solid white;
+		top: 44%;
+		width: 100%;
+		height: 1px;
+		left: 0;
+	}
+	.step {
+		padding: 0 4%;
+	}
+	.step::before {
+		left: 46px;
+	}
+	.step-item::before {
+		width: 70px;
+		height: 75px;
+		border-radius: 4px;
+		left: 0;
+		top: 40px;
+	}
+	.step-item::after {
+		top: 135px;
+		left: 25px;
+	}
+	.step-item:last-of-type::before {
+		display: none;
+	}
+	.step .form {
+		width: 77%;
+	}
+	.step .form h3 {
+		margin-top: 4%;
+	}
+	.step .form h3::before {
+		height: 70%;
+	}
+	.step li p,
+	.step li div,
+	.step li small {
+		padding-left: 85px;
+	}
+	.step li small {
+		display: block;
+	}
+	.step .contect-help p {
+		padding: 0 7%;
+		text-align: left;
+	}
+	.step li div div {
+		padding: 14px 0;
 	}
 }
 /* charge */
@@ -823,6 +891,36 @@ section .table .advrt {
 	width: 122px;
 	height: 134px;
 	padding-right: 12px;
+}
+@media only screen and (max-width: 639px) {
+	#charge .rate div {
+		margin: 0 4% 4%;
+		padding: 15px;
+	}
+	#charge .inner p {
+		margin: 0 auto;
+		width: 92%;
+	}
+	#charge .rate img {
+		display: none;
+	}
+	#charge .rate h5 {
+		position: relative;
+		color: var(--blue1);
+		padding-left: 10px;
+		padding-bottom: 4px;
+	}
+	#charge .rate h5::after {
+		content: '';
+		position: absolute;
+		width: 2px;
+		height: 74%;
+		background-color: var(--blue1);
+		left: 0;
+	}
+	#charge .rate p {
+		width: 100%;
+	}
 }
 
 /* qna */
@@ -928,31 +1026,39 @@ section .table .advrt {
 .qna-item:last-of-type .acd-check:checked + .acd-label + .acd-content {
 	border-radius: 0 0 8px 8px;
 }
-@media only screen and (max-width: 480px) {
-	.faq {
+@media only screen and (max-width: 639px) {
+	#qna {
 		padding-bottom: 0;
 	}
-	.qna-content {
-		padding: 0 3% 8%;
-		background: var(--color-white);
+	#qna .inner {
+		width: 100%;
+		padding: 0;
 	}
-	.faq-header {
-		background: var(--color-4);
-		border-radius: 0;
-		padding: 6% 6%;
+	.acd-label::after {
+		top: 24%;
+		right: 10px;
+		bottom: 0;
+		background-size: 18px;
 	}
 	.question {
-		margin-right: 4%;
+		margin-right: 2%;
+		padding: 0 10px 0 0;
 	}
-	.faq-header::before {
-		background-size: 88vw;
-		height: 27vw;
+	.q-heading {
+		align-items: center;
+		width: 100%;
 	}
 	.acd-label {
-		padding: 4% 13% 4% 3%;
+		padding: 4% 10% 4% 4%;
 	}
 	.acd-check:checked + .acd-label + .acd-content {
-		padding: 3% 5%;
+		padding: 25px 4%;
+	}
+	.acd-check:checked + .acd-label + .acd-content::before {
+		left: 4%;
+	}
+	.acd-content p {
+		padding-left: 9%;
 	}
 }
 
@@ -975,6 +1081,7 @@ section .table .advrt {
 #contact .contect-item {
 	position: relative;
 }
+
 #contact .contect-item::after {
 	position: absolute;
 	content: '';
@@ -983,6 +1090,21 @@ section .table .advrt {
 	width: 1px;
 	left: 59%;
 	right: auto;
+}
+@media only screen and (max-width: 639px) {
+	#contact .contect-item {
+		flex-direction: column;
+	}
+	#contact .contect-item div {
+		margin: 5% 0;
+		width: 70%;
+	}
+	#contact .contect-item::after {
+		display: none;
+	}
+	#contact .help_new__content .tel {
+		filter: brightness(100);
+	}
 }
 
 /* help */
@@ -1000,14 +1122,23 @@ section .table .advrt {
 	color: #33c8e8;
 	background: white;
 }
-.help_btn:hover {
+#help .help_btn:hover {
 	color: white;
 	text-decoration: none;
 	opacity: 0.6;
 }
+@media only screen and (max-width: 639px) {
+	#contact .mainttl,
+	#help .mainttl {
+		font-size: 2em;
+	}
+	#help p {
+		text-align: left;
+		width: 90%;
+	}
+}
 
 /* relate */
-
 .step_line {
 	text-align: center;
 }
@@ -1260,7 +1391,6 @@ input {
 .form_help_text {
 	padding-bottom: 1%;
 }
-
 .help_new__content,
 .contect-help,
 .help_new__content p,
@@ -1272,6 +1402,7 @@ input {
 	font-weight: bolder;
 	color: var(--blue1);
 	padding-left: 42px;
+	background: left / contain no-repeat url(img/tel_icon.svg);
 }
 .contect-help {
 	margin: -4px auto;
@@ -1337,6 +1468,17 @@ input {
 }
 #info_box {
 	padding: 0px 0 0 0;
+}
+@media only screen and (max-width: 639px) {
+	.help_new__content .tel {
+		padding-left: 36px;
+		font-size: 30px;
+		letter-spacing: 0;
+		background-size: 6vw;
+	}
+	.contect-item .help_new__content p {
+		padding: 0;
+	}
 }
 
 /* サンクス画面 */
@@ -1445,4 +1587,25 @@ input {
 }
 .site .text a:after {
 	background-image: url('img/t_blank_b.svg');
+}
+@media only screen and (max-width: 639px) {
+	.site {
+		flex-direction: column;
+		margin: 4% auto;
+		width: 80%;
+	}
+	.site .text {
+		padding: 0;
+		margin-top: 4%;
+	}
+	.site .text a {
+		float: right;
+		right: 20px;
+	}
+	.site .text a:after {
+		bottom: 5px;
+	}
+	#Footer .footin .pc_change p a {
+		padding: 15px 10px 15px 32px;
+	}
 }
