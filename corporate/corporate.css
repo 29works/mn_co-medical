@@ -457,6 +457,9 @@ h4 strong {
 		height: auto;
 		padding: 50px;
 	}
+	#nayami .inner .item div p {
+		white-space: nowrap;
+	}
 	#nayami .inner .item {
 		padding: 0 0 20px;
 		width: 96%;
@@ -657,7 +660,7 @@ section .table .advrt {
 	#merit .table .advrt li li.sp {
 		margin: 0;
 		padding: 8px 0 8px 20px;
-		font-size: 1.5em;
+		font-size: 1.3em;
 		text-align: center;
 		background: 28% center / 52px no-repeat url(img/pickup_02.svg) #e2f5ff;
 	}
