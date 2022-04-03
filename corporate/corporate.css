@@ -126,9 +126,10 @@ h4 strong {
 		display: block;
 	}
 	body {
+		/* box-sizing: border-box; */
 		width: 100%;
 		padding: 67px 0 0 0;
-		overflow-x: hidden;
+		/* overflow-x: hidden; */
 	}
 	h1 {
 		font-size: 32px;
@@ -197,6 +198,9 @@ h4 strong {
 		display: block;
 		width: 100%;
 		height: auto;
+	}
+	#breadcrumb_list　 {
+		width: 100%;
 	}
 }
 
@@ -344,12 +348,12 @@ h4 strong {
 }
 @supports not (backdrop-filter: blur(8px)) {
 	#nayami .inner .pickup div {
-		background: #ffffff91;
+		background: #ffffffcf;
 	}
 }
 @media all and (-ms-high-contrast: none) {
 	#nayami .inner .pickup div {
-		background: #ffffff91;
+		background: #ffffffcf;
 	}
 }
 #nayami .inner .pickup div::after {
