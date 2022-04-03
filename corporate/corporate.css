@@ -129,7 +129,7 @@ h4 strong {
 		/* box-sizing: border-box; */
 		width: 100%;
 		padding: 67px 0 0 0;
-		overflow-x: hidden;
+		/* overflow-x: hidden; */
 	}
 	h1 {
 		font-size: 32px;
@@ -199,7 +199,7 @@ h4 strong {
 		width: 100%;
 		height: auto;
 	}
-	#breadcrumb_list　 {
+	#breadcrumb_list {
 		width: 100%;
 	}
 }
