@@ -37,11 +37,14 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-W2WJ946');</script>
   <!-- End Google Tag Manager -->
-
+  <!--★★↓↓ページ用CSS/JS↓↓★★-->
   <link rel="stylesheet" type="text/css" media="(min-width:638px)" href="../common/css/import.css" />
   <link rel="stylesheet" type="text/css" media="(max-width:639px)" href="../sp/common/css/import.css">
   <link rel="stylesheet" type="text/css" media="(max-width:639px)" href="../sp/common/css/base.css">
   <link rel="stylesheet" type="text/css" media="all" href="corporate.css" />
+  <script type="text/javascript" src="slick.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <!--★★↑↑ページ用CSS/JS↑↑★★-->
 </head>
 
 <body>
@@ -76,7 +79,7 @@
       <div class="taglineBox">
         <h1>採用ご担当者様へ｜マイナビコメディカル</h1>
         <ul class="lnkbx">
-          <li><a href="../faq/faq.html">よくある質問</a></li>
+          <li><a href="../qna/qna.html">よくある質問</a></li>
           <li><a href="../sitemap/sitemap.html">サイトマップ</a></li>
           <li><a href="index.html">採用担当者の方へ</a></li>
           <li><a href="https://survey.mynavi.jp/cre/?enq=ssJJBASt6zA%3d">自治体・公共団体採用ご担当者さまへ</a></li>
@@ -129,7 +132,7 @@
         <ul>
           <li><a href="../index-2.html">トップページ</a></li>
           <li><a href="../guide/index.html">ご利用ガイド</a></li>
-          <li><a href="../faq/faq.html">よくあるご質問</a></li>
+          <li><a href="../qna/qna.html">よくあるご質問</a></li>
           <li><a href="../search/search.html">求人検索</a></li>
           <li><a href="../contents/index.html">転職成功事例</a></li>
           <li><a href="../sp/support/index.html">転職支援情報</a></li>
@@ -184,10 +187,10 @@
       <div id="corporate">
         <div id="mainvisual">
           <div class="inner">
-            <h1 class="marker">
-              採用ご担当者様へ
+            <h1>
+              <span class="marker">採用</span><br class="sp"><span class="marker">ご担当者様へ</span>
             </h1>
-            <p>
+            <p class="pc">
               マイナビコメディカルは、<br>
               皆様の採用活動のベストパートナーとして<br>
               最大限サポートいたします。
@@ -199,7 +202,7 @@
           <div class="inner">
             <div class="column">
               <div class="text">
-                <p>マイナビコメディカルは<br>
+                <p>マイナビ<br class="sp">コメディカルは<br>
                   成約するまで</p>
                 <strong>初期費用</strong>
               </div>
@@ -209,7 +212,7 @@
             </div>
             <div class="desc">
               <h3>
-                マイナビコメディカルの人材紹介サービスは、<br>
+                マイナビコメディカルの人材紹介サービスは、<br class="pc">
                 初期費用ゼロの完全成功報酬制です。
               </h3>
               <p>
@@ -223,12 +226,21 @@
         <section id="nayami">
           <div class="inner">
             <div class="pickup">
-              <div>全国<strong>10</strong><span>拠点</span>で<br>
-                幅広いニーズに対応</div>
-              <div>初期費用が<br><strong>0</strong><span>円</span></div>
-              <div>リスクがない<strong>完全成功<br>報酬制</strong></div>
+              <div>
+                <p>全国<span><strong>10</strong>拠点</span>で</p>
+                幅広いニーズに対応
+              </div>
+              <div>
+                初期費用が<br>
+                <span><strong>0</strong>円</span>
+              </div>
+              <div>
+                リスクがない<br>
+                <span><strong>完全成功<br>
+                    報酬制</strong></span>
+              </div>
             </div>
-            <div class="item">
+            <div class="item scrollIn fadeInUp">
               <div>
                 <p>
                   人事の費用、<br>
@@ -258,15 +270,18 @@
           </div>
         </section>
 
-        <section id="merit">
-          <div class="inner">
-            <h2 class="mainTtl">マイナビコメディカルの特徴とメリット</h2>
+        <section id="merit" class="b-bg">
+          <div class="inner scrollIn fadeInUp">
+            <h2 class="mainttl">マイナビコメディカルの<br class="sp">特徴とメリット</h2>
             <div class="attention">
               <p>
                 「広告を使わなくても全国で年間20名以上採用できた」「採用に困っていた地方の病院で確実に採用できた」「新規オープンの病院で急いで採用をしたいときにすぐに紹介してもらえた」…等々、<strong>うれしいご評価</strong>をいただいております。
               </p>
             </div>
-            <h3 class="secondTtl"><span>その１</span>マイナビコメディカルと他の採用サービスとの<strong>比較</strong></h3>
+            <h3 class="secondttl">
+              <span class="tag">その１</span>
+              <span>マイナビコメディカルと<br class="sp">他の採用サービスとの<strong>比較</strong></span>
+            </h3>
             <div class="table">
               <div class="ttl pc">
                 <ul>
@@ -274,45 +289,54 @@
                   <li>採用業務の効率</li>
                 </ul>
               </div>
-              <div class="mynv">
-                <ul>
-                  <li class="list-ttl">マイナビコメディカル</li>
-                  <li class="bb">
-                    <ul>
-                      <li><span class="y_line">初期費用ゼロ</span></li>
-                      <li>完全成功報酬制のため<span class="y_line">費用対効果が明確</span>で、リスクがない</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <ul>
-                      <li>医療業界を熟知したプロのキャリアアドバイザーが、<span class="y_line">貴社の特性に合う人材</span>をご紹介するためミスマッチが少ない</li>
-                      <li>面接など採用までの<span class="y_line">日程調整・雇用条件のすり合わせ</span>を代行</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="advrt">
-                <ul>
-                  <li class="list-ttl">求人広告<span>新聞雑誌・折込チラシ・求人誌など</span></li>
-                  <li class="bb">
-                    <ul>
-                      <li>初期費用として<span class="y_line">高額の広告費用</span></li>
-                      <li>煩わしい出稿手続きがあるにもかかわらず、<span class="y_line">採用につながらないリスク</span>がある</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <ul>
-                      <li>ミスマッチや雇用条件などのすれ違いから、<span class="y_line">早期離職者が多い</span></li>
-                      <li>日程調整・雇用条件のすり合わせなど、<span class="y_line">人的負担が大きい</span></li>
-                    </ul>
-                  </li>
-                </ul>
+              <div class="merit-item">
+                <div class="mynv">
+                  <ul>
+                    <li class="list-ttl">マイナビコメディカル</li>
+                    <li class="bb">
+                      <ul>
+                        <li class="sp">費用対効果</li>
+                        <li><span class="y_line">初期費用ゼロ</span></li>
+                        <li>完全成功報酬制のため<span class="y_line">費用対効果が明確</span>で、リスクがない</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul>
+                        <li class="sp">採用業務の効率</li>
+                        <li>医療業界を熟知したプロのキャリアアドバイザーが、<span class="y_line">貴社の特性に合う人材</span>をご紹介するためミスマッチが少ない</li>
+                        <li>面接など採用までの<span class="y_line">日程調整・雇用条件のすり合わせ</span>を代行</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="advrt">
+                  <ul>
+                    <li class="list-ttl">求人広告<span>新聞雑誌・折込チラシ・求人誌など</span></li>
+                    <li class="bb">
+                      <ul>
+                        <li class="sp">費用対効果</li>
+                        <li>初期費用として<span class="y_line">高額の広告費用</span></li>
+                        <li>煩わしい出稿手続きがあるにもかかわらず、<span class="y_line">採用につながらないリスク</span>がある</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul>
+                        <li class="sp">採用業務の効率</li>
+                        <li>ミスマッチや雇用条件などのすれ違いから、<span class="y_line">早期離職者が多い</span></li>
+                        <li>日程調整・雇用条件のすり合わせなど、<span class="y_line">人的負担が大きい</span></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <h3 class="secondTtl">
-              <span>その２</span><strong>業界専任のキャリアアドバイザー</strong>が約100名以上在籍
+            <h3 class="secondttl">
+              <span class="tag">その２</span>
+              <span>
+                <strong>業界専任のキャリアアドバイザー</strong>が<br class="sp">約100名以上在籍
+              </span>
             </h3>
-            <div class="advisor">
+            <div class="advisor scrollIn fadeInUp">
               <div>
                 <h4>しっかりとコンサルティングを行うことで<br>
                   <strong>ミスマッチや早期退職防止</strong>
@@ -327,12 +351,12 @@
           </div>
         </section>
 
-        <section id="flow">
-          <div class="inner">
-            <h2 class="mainTtl">お申し込みからご採用までの流れ</h2>
+        <section id="flow" class="b-bg">
+          <div class="inner scrollIn fadeInUp">
+            <h2 class="mainttl">お申し込みからご採用までの流れ</h2>
             <ol class="step">
-              <li class="step01">
-                <h3 class="secondTtl"><span>STEP1</span>お問い合わせ</h3>
+              <li class="step-item step01 scrollIn fadeInUp">
+                <h3 class="secondttl"><span class="tag">STEP1</span>お問い合わせ</h3>
                 <p>まずは下記へお問い合わせいただくか、<a class="u_line" href="https://survey.mynavi.jp/cre/?enq=%2BJ7k1se0d%2B0%3D"
                     target="_blank">こちら</a>のフォームからお申し込みください
                 </p>
@@ -340,7 +364,7 @@
                   <h3>
                     <span>求人に関するお問い合わせ</span>はこちらから
                   </h3>
-                  <div class="help__content">
+                  <div class="contect-item">
                     <div class="help_new__content">
                       <h4>お電話でのお問い合わせ</h4>
                       <a class="tel" href="tel:0120-941-651">0120-941-651</a>
@@ -358,7 +382,7 @@
                   <h3>
                     <span>マイナビコメディカルに関するご意見・苦情など</span>はこちらから
                   </h3>
-                  <div class="help_partner">
+                  <div class="contect-help">
                     <p>
                       営業担当に直接伝えづらいことなどがあれば、こちらよりご連絡ください。<br>
                       お客様からのご意見を改善の機会と捉え、更なるサービス向上に努めます。
@@ -369,109 +393,190 @@
                   </div>
                 </div>
               </li>
-              <li class="step02">
-                <h3 class="secondTtl"><span>STEP2</span>転職希望者のご紹介</h3>
+              <li class="step-item step02 scrollIn fadeInUp">
+                <h3 class="secondttl"><span class="tag">STEP2</span>転職希望者のご紹介</h3>
                 <p>お伺いした募集条件、勤務条件、貴院の特色などのヒアリング情報に基づき、条件がマッチする転職希望者をご紹介いたします。面接日程の調整は弊社が仲介して行います。</p>
                 <p>面接前に弊社にてご用意した「キャリアシート」と「推薦状」をお送りいたしますので、選考時に参考としてご利用ください。</p>
               </li>
-              <li class="step03">
-                <h3 class="secondTtl"><span>STEP3</span>ご採用</h3>
+              <li class="step-item step03 scrollIn fadeInUp">
+                <h3 class="secondttl"><span class="tag">STEP3</span>ご採用</h3>
                 <p>
                   面接などの選考試験が終わりましたら、採用・不採用を決定していただきます。転職希望者ご本人への選考結果の通知は、弊社が代行いたします。また、内定の場合には、雇用条件・入職日などの諸調整も弊社が行います。転職希望者が内定を受諾し、相思相愛となりましたら、採用が成立いたします。
                 </p>
                 <small>※完全成功報酬制のため、採用が成立して転職希望者が入職するまでは、費用は一切発生いたしません。</small>
               </li>
-              <li class="step04">
-                <h3 class="secondTtl"><span>STEP4</span>採用成功!</h3>
+              <li class="step-item step04 scrollIn fadeInUp">
+                <h3 class="secondttl"><span class="tag">STEP4</span>採用成功!</h3>
               </li>
             </ol>
           </div>
         </section>
 
+        <section id="charge" class="b-bg">
+          <div class="inner">
+            <h2 class="mainttl">料金体系について</h2>
+            <p>マイナビコメディカルは、完全成功報酬型の人材紹介サービスです。<br>
+              採用が成立して、理学療法士・作業療法士・言語聴覚士・臨床検査技師・臨床工学技士・診療放射線技師・管理栄養士・栄養士・機能訓練指導員・他医療職の方が無事にご入職されるまでは、一切費用は発生いたしません。もちろん、万一の早期退職となってしまった場合には、成功報酬の一部返金制度も用意しています。
+            </p>
+            <div class="rate">
+              <img src="img/charge_illust.png" alt="">
+              <div>
+                <h5>手数料率</h5>
+                <p>リハビリテーション専門職（OT・PT・ST）、医療技術者（診療放射線技師、臨床工学技士、臨床検査技師）、栄養士・管理栄養士、機能訓練指導員：理論年収の20～35％<br>
+                  【手数料率に幅がある理由】<br>
+                  紹介難易度（エリア・採用時期等）やご紹介スキーム（応募母集団形成のための広報・集客活動からご協力する場合等）により変動する。
+                  ※事前にご説明・ご了承をいただいた上でご紹介をスタートします。</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <div class="title_bar01" style="margin-top: 50px;">
-          <p>料金体系について</p>
-        </div>
-        <div class="step_textarea">
-          <p>
-            マイナビコメディカルは、完全成功報酬型の人材紹介サービスです。<br>
-            採用が成立して、理学療法士・作業療法士・言語聴覚士・臨床検査技師・臨床工学技士・診療放射線技師・管理栄養士・栄養士・機能訓練指導員・他医療職の方が無事にご入職されるまでは、一切費用は発生いたしません。もちろん、万一の早期退職となってしまった場合には、成功報酬の一部返金制度も用意しています。
-          </p>
-        </div>
-        <div class="step_textarea">
-          <p style="margin-top: 10px; font-weight: bold;">＜手数料率＞</p>
-          <p>
-            リハビリテーション専門職（OT・PT・ST）、医療技術者（診療放射線技師、臨床工学技士、臨床検査技師）、栄養士・管理栄養士、機能訓練指導員：理論年収の20～35％<br>
-            【手数料率に幅がある理由】<br>
-            紹介難易度（エリア・採用時期等）やご紹介スキーム（応募母集団形成のための広報・集客活動からご協力する場合等）により変動する。※事前にご説明・ご了承をいただいた上でご紹介をスタートします。
-          </p>
-        </div>
-
-        <div class="msapoBox">
-          <p><a href="https://medical-saponet.mynavi.jp/" target="_blank">
-              <img width="340" height="56" alt="メディカルサポネット" src="img/logo.png">
-            </a>
-          <p>
-          <p class="contentBox">メディカルサポネットは、経営者、事務長、看護部長、管理部門の方向けの採用支援サイトです。<br>
-            マイナビがこれまで蓄積した情報やノウハウ、転職者や医療・介護業界の市場データ、診療報酬・介護報酬改定などの行政情報、人材の採用・育成・定着のポイントなど、さまざまな情報を配信しています。<br>
-            経営課題や人事課題の解決のヒントとなる情報が満載です。
-            <span><a href="https://medical-saponet.mynavi.jp/" target="_blank">メディカルサポネット</a></span>
-          </p>
-        </div>
-        <div class="komonBox">
-          <p><a href="https://komon.mynavi-agent.jp/" target="_blank"><img width="340" height="70" alt="マイナビ顧問"
-                src="img/komon_logo.png"></a>
-          <p>
-          <p class="contentBox">病院・リハビリ施設・在宅ステーションの皆様からの様々な課題解決のため、<br>
-            弊社から各専門分野でご活躍の専門家をご紹介する、顧問紹介サービスを展開しております。<br>
-            定着率向上など日常の採用課題はもちろん、人事・財務・能力開発などに関する経営課題まで幅広く対応可能です。<br>
-            また、経験豊富な顧問による研修のご相談も承っております。<br>
-            まずは一度ご相談下さい。
-            <span><a href="https://komon.mynavi-agent.jp/" target="_blank">マイナビ顧問</a></span>
-          </p>
-        </div>
-        <!-- <div class="app_box app_box_bg01">
-                    <h2>費用は完全成功報酬制</h2>
-                    <p>「マイナビコメディカル」は厚生労働大臣認可の転職支援サービス。費用は完全成功報酬制です。また万一、ご紹介した方が早期退職された場合には、成功報酬の一部返金制度もございます。</p>
+        <section id="qna" class="b-bg">
+          <div class="inner">
+            <h2 class="mainttl">よくある質問</h2>
+            <div class="qna-content">
+              <div class="qna-item qna01">
+                <input id="acd-check1" class="acd-check" type="checkbox" checked="checked">
+                <label class="acd-label js-scroll show done" for="acd-check1">
+                  <div class="q-heading">
+                    <div class="question">Q</div>
+                    <h3 class="question-heading motion-inner">
+                      「マイナビコメディカル」はどのようなサービスですか？
+                    </h3>
                   </div>
-                  <div class="app_box app_box_bg02">
-                    <h2>信頼と実績のマイナビ</h2>
-                    <p>
-                      40年以上の歴史があるマイナビグループ。2回連続で転職サイトランキング総合1位（※）に輝く「マイナビ転職」など、就職・転職支援サイトを多数運営する、安心のサービスです。転職希望者の年間利用者数は、200万人以上です。<span
-                        class="size01">※ゴメスコンサルティング調べ</span></p>
+                </label>
+                <div class="answer-desc acd-content">
+                  <p>
+                    「マイナビコメディカル」は、リハビリ職、医療技術職、栄養士などの医療職専門の人材紹介サービスです。医療職を募集されている病院、クリニック、施設、訪問看護ステーションや、資格を活かせる企業様へ候補者をご紹介します。<br>
+                    候補者との連絡や交渉など、ご入職するまで徹底サポートし、採用ご担当者様の負担を大幅に軽減します。
+                  </p>
+                </div>
+              </div>
+              <div class="qna-item qna02">
+                <input id="acd-check2" class="acd-check" type="checkbox">
+                <label class="acd-label js-scroll show done" for="acd-check2">
+                  <div class="q-heading">
+                    <div class="question">Q</div>
+                    <h3 class="question-heading motion-inner">
+                      料金体系について教えてください。
+                    </h3>
                   </div>
-                  <div class="app_box app_box_bg03">
-                    <h2>採用の負担を軽減</h2>
-                    <p>
-                      人材のご紹介からご入社まで、貴社の採用活動を全面的にサポートいたします。<br />人材の選定、面接の日程調整、内定後の条件交渉なども、候補者との連絡は弊社が代行して行いますので、採用ご担当者様の負担を大幅に軽減いたします。
-                    </p>
+                </label>
+                <div class="answer-desc acd-content">
+                  <p>
+                    完全成功報酬型の人材紹介サービスです。<br>
+                    採用が成立して、候補者の方が無事にご入職されるまでは、一切費用は発生いたしません。もちろん、万一の早期退職となってしまった場合には、成功報酬の一部返金制度も用意しています。<br><br>
+                    ＜手数料率＞<br>
+                    リハビリテーション専門職（OT・PT・ST）、医療技術者（診療放射線技師、臨床工学技士、臨床検査技師）、栄養士・管理栄養士、機能訓練指導員：理論年収の20～35％<br>
+                    【手数料率に幅がある理由】<br>
+                    紹介難易度（エリア・採用時期等）やご紹介スキーム（応募母集団形成のための広報・集客活動からご協力する場合等）により変動する。※事前にご説明・ご了承をいただいた上でご紹介をスタートします。<br><br>
+                    詳細については、弊社までお問い合わせください。
+                  </p>
+                </div>
+              </div>
+              <div class="qna-item qna03">
+                <input id="acd-check3" class="acd-check" type="checkbox">
+                <label class="acd-label js-scroll show done" for="acd-check3">
+                  <div class="q-heading">
+                    <div class="question">Q</div>
+                    <h3 class="question-heading motion-inner">
+                      申し込み手続きは複雑ですか？
+                    </h3>
                   </div>
-                  <div id="app_head_text">
-                    <p>
-                      全国で100名以上の医療介護業界専任のキャリアアドバイザーが、医療介護職お一人おひとりの志向性や希望に合った求人をご紹介しています。「コンサルティングもせずに紹介」といったスピードのみを重視した方法は採らず、お一人おひとりにじっくり時間をかけ、転職・就職コンサルティングを提供しています。しっかりとしたコンサルティングを行うことが、職場のミスマッチや早期退職防止のために重要なのです。
-                    </p>
-                  </div> -->
-        <!-- <div class="page_top">
-        <p onclick="backToTop(); return false">ページの先頭へ戻る</p>
-      </div> -->
+                </label>
+                <div class="answer-desc acd-content">
+                  <p>
+                    お電話かWeb上の問い合わせフォームにてご連絡いただくだけです。担当営業からすぐにご連絡し、弊社人材紹介サービスのシステムのご紹介や貴院（貴社）の求人情報のヒアリングをさせていただきます。
+                  </p>
+                </div>
+              </div>
+              <div class="qna-item qna04">
+                <input id="acd-check4" class="acd-check" type="checkbox">
+                <label class="acd-label js-scroll show done" for="acd-check4">
+                  <div class="q-heading">
+                    <div class="question">Q</div>
+                    <h3 class="question-heading motion-inner">
+                      「マイナビコメディカル」の運営会社は？
+                    </h3>
+                  </div>
+                </label>
+                <div class="answer-desc acd-content">
+                  <p>
+                    1973年より総合人材サービスを提供し続けてきた株式会社マイナビの人材紹介部門です。<br>
+                    マイナビは、毎年50万人以上（就職活動を行う大学生の９割以上）の大学生が登録する就職サイトの定番「マイナビ」や、600万人以上※の会員を誇る日本最大級の転職サイト「マイナビ転職」などを運営しています。(※2020年6月時点)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <!-- <div class="page_top">
-        <p onclick="backToTop(); return false">ページの先頭へ戻る</p>
-      </div> -->
+        <section id="contact">
+          <div class="inner">
+            <h2 class="mainttl">求人に関するお問い合わせ</h2>
+            <div class="contect-item">
+              <div class="help_new__content">
+                <h4>お電話でのお問い合わせ</h4>
+                <a class="tel" href="tel:0120-941-651">0120-941-651</a>
+                <p>※携帯・PHSからもご利用になれます。</p>
+              </div>
+              <div class="help_new__content">
+                <h4>Webでのお問い合わせ</h4>
+                <a class="help_btn" href="https://survey.mynavi.jp/cre/?enq=%2BJ7k1se0d%2B0%3D"
+                  target="_blank">お問い合わせ</a>
+                <p>2営業日以内にご連絡いたします</p>
+                <a class="help_linkhub" href="https://www.face-peer.com/mynavi/agent/linkhub"
+                  target="_blank">LINKHUBはこちら</a>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <div id="top_bottom_link">
-          <ul>
-            <li><a href="http://www.mynavi.jp/company/">会社概要</a></li>
-            <li>|</li>
-            <li><a href="../kiyaku/index.html">利用規約</a></li>
-            <li>|</li>
-            <li><a href="../privacy/index.html">個人情報保護方針</a></li>
-            <li>|</li>
-            <li><a href="../sitemap/sitemap.html">サイトマップ</a></li>
-          </ul>
-        </div>
+        <section id="help">
+          <div class="inner">
+            <h2 class="mainttl">マイナビコメディカルに関するご意見・苦情などはこちらから</h2>
+            <div class="contect-help">
+              <p>
+                営業担当に直接伝えづらいことなどがあれば、こちらよりご連絡ください。<br>
+                お客様からのご意見を改善の機会と捉え、更なるサービス向上に努めます。
+              </p>
+              <a class="help_btn"
+                href="https://medical-saponet.mynavi.jp/client_soudan/?utm_source=com&amp;utm_medium=referral&amp;utm_campaign=retrade"
+                target="_blank"><span>お取引先様向け</span>ご相談窓口</a>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="related">
+          <div class="inner">
+            <div class="site">
+              <div>
+                <a href="https://medical-saponet.mynavi.jp/" target="_blank">
+                  <img width="340" height="56" alt="メディカルサポネット" src="img/logo.png">
+                </a>
+              </div>
+              <p class="text">メディカルサポネットは、経営者、事務長、看護部長、管理部門の方向けの採用支援サイトです。<br>
+                マイナビがこれまで蓄積した情報やノウハウ、転職者や医療・介護業界の市場データ、診療報酬・介護報酬改定などの行政情報、人材の採用・育成・定着のポイントなど、さまざまな情報を配信しています。<br>
+                経営課題や人事課題の解決のヒントとなる情報が満載です。<br>
+                <a href="https://medical-saponet.mynavi.jp/" target="_blank">メディカルサポネット</a>
+              </p>
+            </div>
+            <div class="site">
+              <div>
+                <a href="https://komon.mynavi-agent.jp/" target="_blank">
+                  <img width="340" height="70" alt="マイナビ顧問" src="img/komon_logo.png"></a>
+              </div>
+              <p class="text">病院・リハビリ施設・在宅ステーションの皆様からの様々な課題解決のため、<br>
+                弊社から各専門分野でご活躍の専門家をご紹介する、顧問紹介サービスを展開しております。<br>
+                定着率向上など日常の採用課題はもちろん、人事・財務・能力開発などに関する経営課題まで幅広く対応可能です。<br>
+                また、経験豊富な顧問による研修のご相談も承っております。<br>
+                まずは一度ご相談下さい。<br>
+                <a href="https://komon.mynavi-agent.jp/" target="_blank">マイナビ顧問</a>
+              </p>
+            </div>
+        </section>
       </div>
-
     </div>
     <!--// #main  -->
   </div>
