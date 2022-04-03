@@ -674,7 +674,7 @@ section .table .advrt {
 		border-left: 1px solid #aaa;
 	}
 	#merit .table .advrt li li.sp {
-		background: 28% center / 52px no-repeat url(img/pickup_02.svg) #e2f5ff;
+		background: left 38% center / 52px no-repeat url(img/pickup_02.svg) #e2f5ff;
 		filter: grayscale(1);
 	}
 	#merit .table .advrt li li.sp {
@@ -690,7 +690,7 @@ section .table .advrt {
 	#merit .table .mynv li:last-of-type li.sp,
 	#merit .table .advrt li:last-of-type li.sp {
 		background-image: url(img/pickup_03.svg);
-		background-position: 19% center;
+		background-position: left 20% center;
 		padding: 8px 0 8px 36px;
 	}
 	#merit .advisor {
