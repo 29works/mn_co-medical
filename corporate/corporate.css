@@ -82,15 +82,6 @@ h4 strong {
 	padding: 60px 0 0;
 	background-color: var(--blue3);
 }
-.txtBold {
-	font-weight: bold;
-}
-.txtS {
-	font-size: 85%;
-}
-.txtGreen {
-	color: #47c681;
-}
 .marker {
 	background: linear-gradient(#fff0 50%, #fff0 60%, #fcf0ae 60%);
 }
