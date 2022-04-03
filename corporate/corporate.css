@@ -126,10 +126,9 @@ h4 strong {
 		display: block;
 	}
 	body {
-		/* box-sizing: border-box; */
 		width: 100%;
 		padding: 67px 0 0 0;
-		/* overflow-x: hidden; */
+		overflow-x: hidden;
 	}
 	h1 {
 		font-size: 32px;
@@ -165,6 +164,17 @@ h4 strong {
 		display: flex;
 		align-items: center;
 		padding: 0 4%;
+	}
+}
+@media only screen and (max-width: 376px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	.secondttl {
+		align-items: flex-start;
 	}
 }
 
@@ -244,6 +254,11 @@ h4 strong {
 		background-size: 59vw;
 	}
 }
+@media only screen and (max-width: 376px) {
+	#mainvisual .inner {
+		height: 116px;
+	}
+}
 
 /* lead */
 #lead {
@@ -293,7 +308,6 @@ h4 strong {
 	font-size: 14px;
 	letter-spacing: 1.5px;
 }
-
 @media only screen and (max-width: 639px) {
 	#lead .inner {
 		width: 92%;
@@ -315,6 +329,14 @@ h4 strong {
 	}
 	#lead .text strong {
 		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 376px) {
+	#lead .text strong {
+		font-size: 27px;
+	}
+	#lead .desc h3 {
+		font-size: 1.2em;
 	}
 }
 
@@ -484,6 +506,29 @@ h4 strong {
 	#nayami .inner .item::after {
 		width: 100%;
 		height: 154px;
+	}
+}
+@media only screen and (max-width: 376px) {
+	#nayami .inner .item div {
+		padding: 12%;
+	}
+	#nayami .inner .item div p {
+		font-size: 80%;
+	}
+	#nayami .inner .pickup span strong {
+		font-size: 19px;
+	}
+	#nayami .inner .pickup div:first-of-type span strong,
+	#nayami .inner .pickup div:nth-last-of-type(2) span strong {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 361px) {
+	#nayami .inner .pickup div {
+		font-size: 11px;
+	}
+	#nayami .inner .item div:nth-of-type(2) {
+		margin-right: 2%;
 	}
 }
 /* merit */
@@ -706,6 +751,25 @@ section .table .advrt {
 		height: 193px;
 	}
 }
+@media only screen and (max-width: 376px) {
+	#merit .attention p {
+		padding: 4% 4% 44% 4%;
+	}
+	#merit .attention p::after {
+		background-position: bottom center;
+	}
+}
+@media only screen and (max-width: 321px) {
+	#merit .table .mynv li li.sp,
+	#merit .table .advrt li li.sp {
+		background-position: 24% center;
+	}
+	#merit .table .mynv li:last-of-type li.sp,
+	#merit .table .advrt li:last-of-type li.sp {
+		background-position: left 15% center;
+	}
+}
+
 /* flow */
 #flow .inner {
 	padding-bottom: 100px;
@@ -893,6 +957,29 @@ section .table .advrt {
 		padding: 14px 0;
 	}
 }
+@media only screen and (max-width: 376px) {
+	.secondttl .tag {
+		font-size: 13px;
+		white-space: nowrap;
+	}
+	.step-item::before {
+		height: 62px;
+		width: 62px;
+	}
+	.step::before {
+		left: 37px;
+	}
+	.step-item::after {
+		top: 125px;
+		left: 21px;
+	}
+}
+@media only screen and (max-width: 361px) {
+	.step .form {
+		width: 70%;
+	}
+}
+
 /* charge */
 #charge .mainttl {
 	padding-bottom: 8px;
@@ -1158,6 +1245,15 @@ section .table .advrt {
 	#help p {
 		text-align: left;
 		width: 90%;
+	}
+	.help_btn {
+		line-height: 1.2;
+	}
+}
+@media only screen and (max-width: 376px) {
+	#contact .mainttl,
+	#help .mainttl {
+		font-size: 1.4em;
 	}
 }
 
@@ -1501,6 +1597,19 @@ input {
 	}
 	.contect-item .help_new__content p {
 		padding: 0;
+	}
+}
+@media only screen and (max-width: 376px) {
+	.help_new__content .tel {
+		font-size: 23px;
+	}
+	.contect-item .help_new__content p {
+		font-size: 8px;
+	}
+}
+@media only screen and (max-width: 361px) {
+	.help_new__content .tel {
+		font-size: 20px;
 	}
 }
 
