@@ -895,6 +895,9 @@ section .table .advrt {
 	bottom: 0;
 	right: -18px;
 }
+#flow .help_new__content .help_btn {
+	padding: 10px 40px;
+}
 @media only screen and (max-width: 639px) {
 	#flow .inner {
 		padding-bottom: 30px;
@@ -963,6 +966,9 @@ section .table .advrt {
 	}
 	.step li div div {
 		padding: 14px 0;
+	}
+	#flow .help_new__content .help_btn {
+		padding: 21px 46px;
 	}
 }
 @media only screen and (max-width: 376px) {
@@ -1209,7 +1215,7 @@ section .table .advrt {
 	border-left: solid 1px white;
 	height: 80%;
 	width: 1px;
-	left: 59%;
+	left: 52%;
 	right: auto;
 }
 @media only screen and (max-width: 639px) {
@@ -1567,6 +1573,7 @@ input {
 	margin: 8px 0;
 }
 .help_new__content .help_btn {
+	padding: 10px 80px;
 	background: linear-gradient(47deg, #ff7f00 30%, #ffa800 70%);
 }
 .help_btn span {
@@ -1600,6 +1607,10 @@ input {
 	}
 	.contect-item .help_new__content p {
 		padding: 0;
+	}
+	#contact .help_new__content .help_btn,
+	#help .contect-help .help_btn {
+		padding: 21px 32px;
 	}
 }
 @media only screen and (max-width: 376px) {
