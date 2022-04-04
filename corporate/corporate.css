@@ -364,15 +364,16 @@ h4 strong {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
-	padding: 77px 27px 23px;
+	padding: 98px 22px;
 	width: 166px;
-	border-radius: 8px;
 	font-size: 18px;
 	text-align: center;
+	line-height: 1.8;
+	border-radius: 8px;
 	backdrop-filter: blur(8px);
 	-webkit-backdrop-filter: blur(8px) contrast(20%);
 	background-color: #ffffff91;
-	line-height: 1.8;
+	background-position: center;
 }
 @supports not (backdrop-filter: blur(8px)) {
 	#nayami .inner .pickup div {
@@ -384,7 +385,7 @@ h4 strong {
 		background: #ffffffcf;
 	}
 }
-#nayami .inner .pickup div::after {
+/* #nayami .inner .pickup div::after {
 	position: absolute;
 	content: '';
 	width: 78px;
@@ -392,15 +393,15 @@ h4 strong {
 	background-position: center;
 	background-size: contain;
 	top: 10px;
+} */
+#nayami .inner .pickup div:first-of-type {
+	background-image: url(img/pickup_text01.svg);
 }
-#nayami .inner .pickup div:first-of-type::after {
-	background-image: url(img/pickup_01.svg);
+#nayami .inner .pickup div:nth-child(2) {
+	background-image: url(img/pickup_text02.svg);
 }
-#nayami .inner .pickup div:nth-child(2)::after {
-	background-image: url(img/pickup_02.svg);
-}
-#nayami .inner .pickup div:last-of-type::after {
-	background-image: url(img/pickup_03.svg);
+#nayami .inner .pickup div:last-of-type {
+	background-image: url(img/pickup_text03.svg);
 }
 #nayami .inner .pickup div:first-of-type span strong,
 #nayami .inner .pickup div:nth-last-of-type(2) span strong {
@@ -469,8 +470,10 @@ h4 strong {
 	#nayami .inner .pickup div {
 		justify-content: center;
 		width: 30%;
-		padding: 60px 2px 14px;
-		font-size: 12px;
+		padding: 59px 0;
+		font-size: 10px;
+		white-space: nowrap;
+		background-size: 100%;
 	}
 	#nayami .inner .pickup span strong {
 		font-size: 20px;
@@ -1187,6 +1190,9 @@ section .table .advrt {
 #contact .help_linkhub {
 	color: white;
 }
+#contact .help_new__content .tel {
+	filter: brightness(100);
+}
 #contact .help_linkhub {
 	position: relative;
 }
@@ -1216,9 +1222,6 @@ section .table .advrt {
 	}
 	#contact .contect-item::after {
 		display: none;
-	}
-	#contact .help_new__content .tel {
-		filter: brightness(100);
 	}
 }
 
