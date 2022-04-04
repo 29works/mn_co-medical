@@ -374,6 +374,7 @@ h4 strong {
 	-webkit-backdrop-filter: blur(8px) contrast(20%);
 	background-color: #ffffff91;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 @supports not (backdrop-filter: blur(8px)) {
 	#nayami .inner .pickup div {
@@ -958,7 +959,7 @@ section .table .advrt {
 		display: block;
 	}
 	#flow .contect-help .help_btn {
-		width: 50%;
+		width: 67%;
 	}
 	.step .contect-help p {
 		padding: 0 7%;
@@ -986,6 +987,9 @@ section .table .advrt {
 	.step-item::after {
 		top: 125px;
 		left: 21px;
+	}
+	#flow .help_new__content .help_btn {
+		padding: 21px 26px;
 	}
 }
 @media only screen and (max-width: 361px) {
