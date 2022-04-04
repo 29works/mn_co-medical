@@ -386,15 +386,6 @@ h4 strong {
 		background: #ffffffcf;
 	}
 }
-/* #nayami .inner .pickup div::after {
-	position: absolute;
-	content: '';
-	width: 78px;
-	height: 73px;
-	background-position: center;
-	background-size: contain;
-	top: 10px;
-} */
 #nayami .inner .pickup div:first-of-type {
 	background-image: url(img/pickup_text01.svg);
 }
