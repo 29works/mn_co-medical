@@ -116,9 +116,6 @@ h4 strong {
 	.sp {
 		display: block;
 	}
-	html {
-		overflow-x: hidden;
-	}
 	body {
 		width: 100%;
 		padding: 67px 0 0 0;
@@ -484,9 +481,8 @@ h4 strong {
 		top: 0;
 	}
 	#nayami .inner .item div {
-		width: 100%;
 		height: auto;
-		padding: 50px;
+		padding: 0;
 	}
 	#nayami .inner .item div p {
 		white-space: nowrap;
